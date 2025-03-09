@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.46.04",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:46:04.531989"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Kan gellak er echt voor zorgen dat je later geen nieuwe heup of knie kunt krijgen? De Amphia-orthopeed legt het uit](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6CGN-CWK1-JBHV-K2K3-00000-00&context=1519360)\n## Brabants Dagblad\n### Romy Vogel\n### July 15, 2024\n\n1. Recent discussions on social media have raised concerns about the potential for gel nail polish (gellak) to cause allergies that could prevent individuals from receiving prosthetic implants, such as hip or knee replacements.\n\n2. Experts, including orthopedic surgeon Stefan Bolder, emphasize that gellak is safe when applied correctly to healthy nails, but improper application can lead to contact allergies due to exposure to acrylate monomers.\n\n3. The CEO of Pink Gellac, Thera Strietman-Stein, highlights that allergic reactions can arise from using low-quality gellak that does not meet European regulations, prompting the brand to transition to a HEMA-free formula to reduce allergy risks.\n\n4. Individuals with a contact allergy to gel nail products may experience complications during prosthetic surgeries, but it is still possible to receive implants without the use of bone cement if the allergy is disclosed prior to the procedure. \n\n5. The article stresses the importance of following proper application techniques and safety guidelines to prevent the development of allergies, as once established, these allergies are permanent and can significantly impact future medical procedures.",
+            "timestamp": "2025-03-02T15:46:04.532008"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Kan gellak er echt voor zorgen dat je later geen nieuwe heup of knie kunt krijgen? De Amphia-orthopeed legt het uit](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6CGN-CWK1-JBHV-K2K3-00000-00&context=1519360)\n## Brabants Dagblad\n### Romy Vogel\n### 15 juli 2024\n\n1. Recentelijke discussies op sociale media hebben zorgen geuit over de mogelijkheid dat gellak allergie\u00ebn kan veroorzaken die individuen kunnen verhinderen om protheses te ontvangen, zoals heup- of knieimplantaten.\n\n2. Experts, waaronder orthopeed Stefan Bolder, benadrukken dat gellak veilig is wanneer het correct op gezonde nagels wordt aangebracht, maar onjuiste toepassing kan leiden tot contactallergie\u00ebn door blootstelling aan acrylaatmonomeren.\n\n3. De CEO van Pink Gellac, Thera Strietman-Stein, wijst erop dat allergische reacties kunnen ontstaan door het gebruik van gellak van lage kwaliteit die niet voldoet aan de Europese regelgeving, wat de merk heeft aangespoord om over te stappen op een HEMA-vrije formule om de allergierisico's te verminderen.\n\n4. Personen met een contactallergie voor gellakproducten kunnen complicaties ervaren tijdens prothesebeurten, maar het is nog steeds mogelijk om implantaten te ontvangen zonder het gebruik van botcement als de allergie v\u00f3\u00f3r de procedure wordt gemeld.\n\n5. Het artikel benadrukt het belang van het volgen van juiste applicatietechnieken en veiligheidsrichtlijnen om de ontwikkeling van allergie\u00ebn te voorkomen, aangezien deze allergie\u00ebn, eenmaal vastgesteld, permanent zijn en een aanzienlijke impact kunnen hebben op toekomstige medische procedures.",
+            "timestamp": "2025-03-02T15:46:10.054676"
+        }
+    ]
+}

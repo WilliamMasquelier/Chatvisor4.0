@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_00.07.20",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-03T00:07:20.268851"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\nHoewel dit een belangrijke factor is in het ontwikkelen van allergie\u00ebn, is het risico beperkter tot individuen die hun nagelriemen beschadigen. Dit heeft minder directe financi\u00eble en reputatiegevolgen dan de andere categorie\u00ebn.",
+            "timestamp": "2025-03-03T00:07:20.268864"
+        },
+        {
+            "role": "assistant",
+            "content": "Hoewel dit een belangrijke factor is in het ontwikkelen van allergie\u00ebn, is het risico beperkter tot individuen die hun nagelriemen beschadigen. Dit heeft minder directe financi\u00eble en reputatiegevolgen dan de andere categorie\u00ebn.",
+            "timestamp": "2025-03-03T00:07:21.457949"
+        }
+    ]
+}

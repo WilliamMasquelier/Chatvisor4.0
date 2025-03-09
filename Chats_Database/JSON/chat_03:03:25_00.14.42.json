@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_00.14.42",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-03T00:14:42.275231"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the translation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nExample input:\n| [Person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,eyc..)] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] |\n\nExample output:\n| [person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,etc..)] | [Translated Quote] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] | N.A. |\n\nIf the input is \"None\", return \"None\". if the original quote is not in English, make sure it is translated. Add \"N.A\" if the quote is already in English.\n\nInput quotes:\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"We weten niet zo goed hoe je het meest risico loopt, maar wel wat risicofactoren zijn.\" |\n| Hester Hendriks | Toxicologist | \"Acrylaten zitten vaak als filmvormer in nagellakproducten.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Je kunt de eerste keer dat je gelnagels laat zetten allergisch worden.\" |\n| Hester Hendriks | Toxicologist | \"Soms wordt niet alle informatie op het etiket vermeld, vooral als producten uit het buitenland komen.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Het begint met wat jeuk en roodheid rondom de nagels, op de handen of het gezicht.\" |\n| Hester Hendriks | Toxicologist | \"Zorg er daarom ook bij lijm voor kunstnagels voor dat het niet op je huid of nagelriemen komt.\" |\n        ",
+            "timestamp": "2025-03-03T00:14:42.275250"
+        },
+        {
+            "role": "assistant",
+            "content": "| Thomas Rustemeyer | Dermatologist-Allergologist | \"We weten niet zo goed hoe je het meest risico loopt, maar wel wat risicofactoren zijn.\" | \"We don't really know how you are most at risk, but we do know what the risk factors are.\" |\n| Hester Hendriks | Toxicologist | \"Acrylaten zitten vaak als filmvormer in nagellakproducten.\" | \"Acrylates are often used as film-formers in nail polish products.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Je kunt de eerste keer dat je gelnagels laat zetten allergisch worden.\" | \"You can become allergic the first time you have gel nails applied.\" |\n| Hester Hendriks | Toxicologist | \"Soms wordt niet alle informatie op het etiket vermeld, vooral als producten uit het buitenland komen.\" | \"Sometimes not all information is listed on the label, especially if products come from abroad.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Het begint met wat jeuk en roodheid rondom de nagels, op de handen of het gezicht.\" | \"It starts with some itching and redness around the nails, on the hands or face.\" |\n| Hester Hendriks | Toxicologist | \"Zorg er daarom ook bij lijm voor kunstnagels voor dat het niet op je huid of nagelriemen komt.\" | \"Therefore, also ensure that glue for artificial nails does not come into contact with your skin or cuticles.\" |",
+            "timestamp": "2025-03-03T00:14:45.696063"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_13.54.36",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-03T13:54:36.739014"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\nBlootstelling aan chemische dampen en fijnstof kan leiden tot ademhalingsproblemen en gezondheidsclaims van zowel klanten als nagelstylisten. Dit kan resulteren in strengere ventilatie-eisen en extra kosten voor salons.",
+            "timestamp": "2025-03-03T13:54:36.739026"
+        },
+        {
+            "role": "assistant",
+            "content": "Blootstelling aan chemische dampen en fijnstof kan leiden tot ademhalingsproblemen en gezondheidsclaims van zowel klanten als nagelstylisten. Dit kan resulteren in strengere ventilatie-eisen en extra kosten voor salons.",
+            "timestamp": "2025-03-03T13:54:38.082505"
+        }
+    ]
+}

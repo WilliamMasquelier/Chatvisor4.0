@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.11.39",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:11:39.807675"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Mads Nipper | \u00d8rsted's CEO | \u201cSolar farms only produce when the sun shines, and the turbines only produce when the wind blows. For us to maximize the availability of the green power, 24-7, we have to store some of it too.\u201d |\n| Juan Mendez | State Senator and resident of Tempe, Arizona | \u201cThis solar-plus-storage is a good step, but SRP needs to do more to provide clean energy and clean up our air and help address climate change.\" |\n| Yayoi Sekine | Head of energy storage at BloombergNEF | \u201cWhat I think is exciting is just how rapidly this market is moving. There's so much pressure for the U.S. and different regions to decarbonize, and storage is one of the major technologies to enable that. There's a lot of momentum.\u201d |\n        ",
+            "timestamp": "2025-03-02T23:11:39.807696"
+        },
+        {
+            "role": "assistant",
+            "content": "| Mads Nipper | \u00d8rsted's CEO | \u201cSolar farms only produce when the sun shines, and the turbines only produce when the wind blows. For us to maximize the availability of the green power, 24-7, we have to store some of it too.\u201d | N.A. |\n| Juan Mendez | State Senator and resident of Tempe, Arizona | \u201cThis solar-plus-storage is a good step, but SRP needs to do more to provide clean energy and clean up our air and help address climate change.\" | N.A. |\n| Yayoi Sekine | Head of energy storage at BloombergNEF | \u201cWhat I think is exciting is just how rapidly this market is moving. There's so much pressure for the U.S. and different regions to decarbonize, and storage is one of the major technologies to enable that. There's a lot of momentum.\u201d | N.A. |",
+            "timestamp": "2025-03-02T23:11:43.364073"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.49.19",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:49:19.343199"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Strak in de nagellak, maar dan veilig](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6F6B-7WG3-S216-81SR-00000-00&context=1519360)\n## Nederlands Dagblad\n### Miluska van Rompu\n### February 24, 2025\n\n1. The increasing popularity of nail salons in the Netherlands has led to a rise in acrylate allergies, with over 4% of patients at Amsterdam UMC now testing positive, a significant increase from 2.3% a decade ago, predominantly affecting women.\n\n2. Allergist Thomas Rustemeyer warns that liquid nail products should never come into contact with the skin to prevent allergic reactions, highlighting the need for better training among nail technicians, as the profession is not regulated.\n\n3. Despite the risks associated with acrylate allergies, the trend for gel nails continues to grow, with consumers increasingly viewing manicured nails as a symbol of self-care and social status, as evidenced by a 23% increase in nail salons in the past two years.\n\n4. The presence of harmful substances like 2-hydroxyethylmethacrylate (2-hema) in nail products remains a concern, as it is banned in EU consumer products but still available through online retailers, indicating a gap in consumer safety.\n\n5. The nail industry is evolving with new techniques and products, but allergists express frustration over the slow response from manufacturers to identify and test new allergenic substances, which complicates efforts to protect consumers.",
+            "timestamp": "2025-03-02T15:49:19.343212"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Strak in de nagellak, maar dan veilig](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6F6B-7WG3-S216-81SR-00000-00&context=1519360)\n## Nederlands Dagblad\n### Miluska van Rompu\n### 24 februari 2025\n\n1. De toenemende populariteit van nagelsalons in Nederland heeft geleid tot een stijging van acrylaatallergie\u00ebn, waarbij meer dan 4% van de pati\u00ebnten bij Amsterdam UMC nu positief test, een significante stijging ten opzichte van 2,3% een decennium geleden, voornamelijk bij vrouwen.\n\n2. Allergoloog Thomas Rustemeyer waarschuwt dat vloeibare nagelproducten nooit in contact mogen komen met de huid om allergische reacties te voorkomen, en benadrukt de noodzaak van betere training voor nageltechnici, aangezien het beroep niet gereguleerd is.\n\n3. Ondanks de risico's die gepaard gaan met acrylaatallergie\u00ebn, blijft de trend voor gelnagels groeien, waarbij consumenten steeds meer gemanicuurde nagels beschouwen als een symbool van zelfzorg en sociale status, zoals blijkt uit een stijging van 23% in nagelsalons in de afgelopen twee jaar.\n\n4. De aanwezigheid van schadelijke stoffen zoals 2-hydroxyethylmethacrylaat (2-hema) in nagelproducten blijft een zorg, aangezien het verboden is in EU-consumentenproducten maar nog steeds beschikbaar is via online retailers, wat wijst op een tekortkoming in de consumentenveiligheid.\n\n5. De nagelindustrie evolueert met nieuwe technieken en producten, maar allergologen uiten frustratie over de trage reactie van fabrikanten om nieuwe allergene stoffen te identificeren en te testen, wat de inspanningen om consumenten te beschermen bemoeilijkt.",
+            "timestamp": "2025-03-02T15:49:25.120567"
+        }
+    ]
+}

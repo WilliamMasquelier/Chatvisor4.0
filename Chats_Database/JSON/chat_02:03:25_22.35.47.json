@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_22.35.47",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to assess the overall tone of a news article, specifically focusing on the article's content about Orsted.",
+            "timestamp": "2025-03-02T22:35:47.694117"
+        },
+        {
+            "role": "user",
+            "content": "\nPlease assess the tone of the news article with specific regard to: Orsted. Focus on how the article portrays Orsted in terms of its actions, reputation, performance, and impact. The tone should be categorized as one of the following:\n\nPositive: The article reflects well on Orsted, highlighting favorable aspects.\nNeutral: The article presents information about Orsted in a balanced, objective manner without any strong positive or negative bias.\nNegative: The article is critical of Orsted, highlighting challenges, controversies, failures, or unfavorable developments.\n\nProvide the final tone assessment as \"Positive,\" \"Neutral,\" or \"Negative.\"\n\nHere is the article content: Page 1 of 1\nORSTED SCRAPS GREEN 'MEGA' PLANT PLANS\nORSTED SCRAPS GREEN 'MEGA' PLANT PLANS\nThe Daily Mail (London)\nAugust 16, 2024 Friday\nEdition 1, National Edition\nCopyright 2024 Associated Newspapers Ltd. All Rights Reserved\nSection: NEWS; Pg. 69\nLength: 133 words\nByline: Emily Hawkins\nBody\nTHE world's largest offshore wind developer Orsted has ditched plans for a mega plant to develop green fuels - \nbecoming the latest company to scale back commitments to switch to cleaner energy such as hydrogen and wind.\nIt had been building a hub in Sweden for use by sectors from shipping to aviation.\nThrough combined hydrogen and carbon dioxide, the facility would have produced 55,000 tons per year of e-\nmethane.\nBut chief executive Mads Nipper said: 'The business case has deteriorated due to the inability to sign long-term \nofftake contracts at sustainable pricing and significantly higher project costs.'\nThe move to halt work has cost \u00a3172m. Orsted is a major player in the sector and is set to build an \u00a38bn offshore \nwind farm in the North Sea by the end of 2027 to power more than 3.3m UK homes.\nGraphic\n \nBlow: Orsted is the largest offshore wind developer\nLoad-Date: August 16, 2024\nEnd of Document\n\nYour output should solely be one of these three words based on your assessment: \"Positive\", \"Neutral\", or \"Negative\". Nothing else\n                ",
+            "timestamp": "2025-03-02T22:35:47.694150"
+        },
+        {
+            "role": "assistant",
+            "content": "Negative",
+            "timestamp": "2025-03-02T22:35:48.482184"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.22.19",
+    "docs_paths": null,
+    "model_name": "chatgpt-4o-latest",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:22:19.695404"
+        },
+        {
+            "role": "user",
+            "content": "\nBased on the following context, determine a clear, concise role or position for the stakeholder Catherine Vandenborre in relation to Orsted.\n\nPreviously identified role(s): Interims-CEO der Elia-Gruppe\n\nContext:\nQuote: \u201eDie Klimaagenda wird zunehmend zu einer Investitionsagenda, damit Europa seine Abh\u00e4ngigkeit von fossilen Brennstoffen verringern und die Industrie erhalten kann.\u201c\nContext: In their role as Interims-CEO der Elia-Gruppe, they stated: \u201eDie Klimaagenda wird zunehmend zu einer Investitionsagenda, damit Europa seine Abh\u00e4ngigkeit von fossilen Brennstoffen verringern und die Industrie erhalten kann.\u201c\n\nRequirements:\n1. Provide a single role or position in 1-5 words maximum\n2. Be specific and relevant to Orsted or its industry\n3. Focus on the stakeholder's professional capacity or expertise\n4. Use concise, clear terminology\n5. Include the entity or organisation the stakeholder is associated with, if the information is available.\n\nExample good responses:\n- \"Chief Technology Officer of [Institution NAME]\"\n- \"Industry Analyst at [Entity NAME]\"\n- \"Solar Energy Expert\"\n- \"Investment Director for [Entity NAME]\"\n- \"Consumer\"\n\nExample bad responses:\n- \"A highly experienced professional in the field\" (too long)\n- \"Person involved in operations\" (too vague)\n- \"Stakeholder\" (too generic)\n\nOutput only the role/position, nothing else.\n",
+            "timestamp": "2025-03-02T23:22:19.695426"
+        },
+        {
+            "role": "assistant",
+            "content": "Interim CEO of Elia Group",
+            "timestamp": "2025-03-02T23:22:20.309586"
+        }
+    ]
+}

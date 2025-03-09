@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_16.23.20",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T16:23:20.127432"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Lilly Buffing | Consumer | \"Zolang niets afrot, blijf ik het doen.\" | \"As long as nothing goes wrong, I will keep doing it.\" |\n| Mirthe | Consumer | \"Ik weet dat het slecht is voor je nagels, maar ik wist niet dat je er allergisch van kan worden. Als ik er last van krijg, dan denk ik wel dat ik ga stoppen.\" | \"I know it's bad for your nails, but I didn't know you could become allergic to it. If I have problems with it, then I think I will stop.\" |\n| Thomas Rustemeyer | Dermatologist | \"De ellende zit in de acrylaten Hema of Di-Hema: de grondstoffen die nodig zijn om de gellak te laten uitharden.\" | \"The trouble lies in the acrylates Hema or Di-Hema: the raw materials needed to cure the gel polish.\" |\n| Albert Feilzer | Dental Professor | \"Soms zelfs helemaal uit Maastricht.\" | \"Sometimes even all the way from Maastricht.\" |\n| Em\u00e9se In\u00e8z Hogestijn | Allergy Expert | \"Toch ligt de verantwoordelijkheid bij producenten en verkopers, niet bij de consument.\" | \"Nevertheless, the responsibility lies with producers and sellers, not with the consumer.\" |\n| Jovita Kaminskait\u0117 | Nail Stylist | \"Ik probeer de schade zo veel mogelijk te beperken.\" | \"I try to minimize the damage as much as possible.\" |\n| Veronika Scavnicka | Consumer | \"Ik vind het er verzorgd uitzien en het blijft langer zitten.\" | \"I think it looks well-groomed and it lasts longer.\" |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Acrylnagelproducten.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Acrylnagelproducten or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-02T16:23:20.127450"
+        },
+        {
+            "role": "assistant",
+            "content": "| Lilly Buffing | Consumer | \"Zolang niets afrot, blijf ik het doen.\" | \"As long as nothing goes wrong, I will keep doing it.\" |\n| Mirthe | Consumer | \"Ik weet dat het slecht is voor je nagels, maar ik wist niet dat je er allergisch van kan worden. Als ik er last van krijg, dan denk ik wel dat ik ga stoppen.\" | \"I know it's bad for your nails, but I didn't know you could become allergic to it. If I have problems with it, then I think I will stop.\" |\n| Thomas Rustemeyer | Dermatologist | \"De ellende zit in de acrylaten Hema of Di-Hema: de grondstoffen die nodig zijn om de gellak te laten uitharden.\" | \"The trouble lies in the acrylates Hema or Di-Hema: the raw materials needed to cure the gel polish.\" |\n| Albert Feilzer | Dental Professor | \"Soms zelfs helemaal uit Maastricht.\" | \"Sometimes even all the way from Maastricht.\" |\n| Em\u00e9se In\u00e8z Hogestijn | Allergy Expert | \"Toch ligt de verantwoordelijkheid bij producenten en verkopers, niet bij de consument.\" | \"Nevertheless, the responsibility lies with producers and sellers, not with the consumer.\" |\n| Jovita Kaminskait\u0117 | Nail Stylist | \"Ik probeer de schade zo veel mogelijk te beperken.\" | \"I try to minimize the damage as much as possible.\" |\n| Veronika Scavnicka | Consumer | \"Ik vind het er verzorgd uitzien en het blijft langer zitten.\" | \"I think it looks well-groomed and it lasts longer.\" |",
+            "timestamp": "2025-03-02T16:23:24.699585"
+        }
+    ]
+}

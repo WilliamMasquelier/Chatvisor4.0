@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_14.26.31",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-03T14:26:31.966679"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n**Langdurige en permanente allergie\u00ebn**",
+            "timestamp": "2025-03-03T14:26:31.966696"
+        },
+        {
+            "role": "assistant",
+            "content": "**Langdurige en permanente allergie\u00ebn**",
+            "timestamp": "2025-03-03T14:26:32.634341"
+        }
+    ]
+}

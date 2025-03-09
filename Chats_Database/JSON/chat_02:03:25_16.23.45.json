@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_16.23.45",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T16:23:45.178633"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Zo\u00eb van Hoorn | Nagelstyliste | \"Voor veel klanten is het vooral het gemak: drie weken lang hoef je je over je nagels geen zorgen te maken.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Het acrylaat HEMA dat in gellak zit, kan allergische reacties veroorzaken.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Dit risico geldt zowel voor klanten als voor professionals die langdurig met deze stoffen werken.\" |\n| Van Hoorn | Nagelstyliste | \"Als professionele nagelstyliste zorg ik ervoor dat de lak niet op de huid komt.\" |\n| Van Hoorn | Nagelstyliste | \"Volg altijd de gebruiksaanwijzing van het product en lees de ingredi\u00ebntenlijst, zodat je weet welke stoffen erin zitten.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Alternatieve acrylaten zoals HPMA worden nu vaker toegepast, maar ook deze chemische stoffen kunnen acrylatenallergie\u00ebn veroorzaken.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Plaknagels zijn misschien minder populair, maar voor mensen met een allergie bieden ze een uitkomst zonder gezondheidsrisico's.\" |\n        ",
+            "timestamp": "2025-03-02T16:23:45.178652"
+        },
+        {
+            "role": "assistant",
+            "content": "| Zo\u00eb van Hoorn | Nagelstyliste | \"Voor veel klanten is het vooral het gemak: drie weken lang hoef je je over je nagels geen zorgen te maken.\" | \"For many customers, it's mainly about convenience: for three weeks you don't have to worry about your nails.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Het acrylaat HEMA dat in gellak zit, kan allergische reacties veroorzaken.\" | \"The acrylate HEMA that is in gel polish can cause allergic reactions.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Dit risico geldt zowel voor klanten als voor professionals die langdurig met deze stoffen werken.\" | \"This risk applies to both customers and professionals who work with these substances for a long time.\" |\n| Van Hoorn | Nagelstyliste | \"Als professionele nagelstyliste zorg ik ervoor dat de lak niet op de huid komt.\" | \"As a professional nail stylist, I ensure that the polish does not come into contact with the skin.\" |\n| Van Hoorn | Nagelstyliste | \"Volg altijd de gebruiksaanwijzing van het product en lees de ingredi\u00ebntenlijst, zodat je weet welke stoffen erin zitten.\" | \"Always follow the product instructions and read the ingredient list so you know which substances are in it.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Alternatieve acrylaten zoals HPMA worden nu vaker toegepast, maar ook deze chemische stoffen kunnen acrylatenallergie\u00ebn veroorzaken.\" | \"Alternative acrylates such as HPMA are now used more often, but these chemical substances can also cause acrylate allergies.\" |\n| Thomas Rustemeyer | Dermatoloog | \"Plaknagels zijn misschien minder populair, maar voor mensen met een allergie bieden ze een uitkomst zonder gezondheidsrisico's.\" | \"Press-on nails may be less popular, but for people with an allergy, they offer a solution without health risks.\" |",
+            "timestamp": "2025-03-02T16:23:50.850103"
+        }
+    ]
+}

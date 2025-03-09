@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.49.01",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:49:01.845829"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Hoe safe is de 'veilige' variant van gelnagellak? Expert licht toe](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6F0W-BFJ3-RSSF-W0S6-00000-00&context=1519360)\n## Flair\n### Rachel Vieth\n### January 29, 2025\n\n1. Research from the program Kassa indicates that traditional gel nail polish, which cures under UV light, can cause health issues due to the presence of HEMA and Di-HEMA acrylates, leading to allergic reactions if not fully cured.\n\n2. In response to health concerns, sellers have developed a 'safe' variant of gel nail polish that is HEMA-free, using alternative acrylates that are claimed to reduce the risk of allergic reactions.\n\n3. Despite the introduction of HEMA-free nail polish, dermatologist Thomas Rustemeyer from Amsterdam UMC reports that patients still experience allergic reactions, suggesting that other acrylates can also trigger allergies.\n\n4. The ongoing discussions in the beauty industry highlight the need for transparency regarding the safety of nail products, as consumers remain concerned about potential allergic reactions even with 'safer' alternatives.",
+            "timestamp": "2025-03-02T15:49:01.845867"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Hoe safe is de 'veilige' variant van gelnagellak? Expert licht toe](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6F0W-BFJ3-RSSF-W0S6-00000-00&context=1519360)\n## Flair\n### Rachel Vieth\n### 29 januari 2025\n\n1. Onderzoek van het programma Kassa geeft aan dat traditionele gelnagellak, die uithardt onder UV-licht, gezondheidsproblemen kan veroorzaken door de aanwezigheid van HEMA en Di-HEMA acrylaten, wat kan leiden tot allergische reacties als het niet volledig is uitgehard.\n\n2. In reactie op gezondheidszorgen hebben verkopers een 'veilige' variant van gelnagellak ontwikkeld die HEMA-vrij is, met alternatieve acrylaten die naar verluidt het risico op allergische reacties verminderen.\n\n3. Ondanks de introductie van HEMA-vrije nagellak meldt dermatoloog Thomas Rustemeyer van Amsterdam UMC dat pati\u00ebnten nog steeds allergische reacties ervaren, wat suggereert dat andere acrylaten ook allergie\u00ebn kunnen veroorzaken.\n\n4. De voortdurende discussies in de schoonheidsindustrie benadrukken de noodzaak van transparantie over de veiligheid van nagelproducten, aangezien consumenten bezorgd blijven over mogelijke allergische reacties, zelfs met 'veiligere' alternatieven.",
+            "timestamp": "2025-03-02T15:49:07.322017"
+        }
+    ]
+}

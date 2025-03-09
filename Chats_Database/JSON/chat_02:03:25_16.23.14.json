@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_16.23.14",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T16:23:14.804919"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Lilly Buffing | Consumer | \"Zolang niets afrot, blijf ik het doen.\" |\n| Mirthe | Consumer | \"Ik weet dat het slecht is voor je nagels, maar ik wist niet dat je er allergisch van kan worden. Als ik er last van krijg, dan denk ik wel dat ik ga stoppen.\" |\n| Thomas Rustemeyer | Dermatologist | \"De ellende zit in de acrylaten Hema of Di-Hema: de grondstoffen die nodig zijn om de gellak te laten uitharden.\" |\n| Albert Feilzer | Dental Professor | \"Soms zelfs helemaal uit Maastricht.\" |\n| Em\u00e9se In\u00e8z Hogestijn | Allergy Expert | \"Toch ligt de verantwoordelijkheid bij producenten en verkopers, niet bij de consument.\" |\n| Jovita Kaminskait\u0117 | Nail Stylist | \"Ik probeer de schade zo veel mogelijk te beperken.\" |\n| Veronika Scavnicka | Consumer | \"Ik vind het er verzorgd uitzien en het blijft langer zitten.\" |\n        ",
+            "timestamp": "2025-03-02T16:23:14.804950"
+        },
+        {
+            "role": "assistant",
+            "content": "| Lilly Buffing | Consumer | \"Zolang niets afrot, blijf ik het doen.\" | \"As long as nothing goes wrong, I will keep doing it.\" |\n| Mirthe | Consumer | \"Ik weet dat het slecht is voor je nagels, maar ik wist niet dat je er allergisch van kan worden. Als ik er last van krijg, dan denk ik wel dat ik ga stoppen.\" | \"I know it's bad for your nails, but I didn't know you could become allergic to it. If I have problems with it, then I think I will stop.\" |\n| Thomas Rustemeyer | Dermatologist | \"De ellende zit in de acrylaten Hema of Di-Hema: de grondstoffen die nodig zijn om de gellak te laten uitharden.\" | \"The trouble lies in the acrylates Hema or Di-Hema: the raw materials needed to cure the gel polish.\" |\n| Albert Feilzer | Dental Professor | \"Soms zelfs helemaal uit Maastricht.\" | \"Sometimes even all the way from Maastricht.\" |\n| Em\u00e9se In\u00e8z Hogestijn | Allergy Expert | \"Toch ligt de verantwoordelijkheid bij producenten en verkopers, niet bij de consument.\" | \"Nevertheless, the responsibility lies with producers and sellers, not with the consumer.\" |\n| Jovita Kaminskait\u0117 | Nail Stylist | \"Ik probeer de schade zo veel mogelijk te beperken.\" | \"I try to minimize the damage as much as possible.\" |\n| Veronika Scavnicka | Consumer | \"Ik vind het er verzorgd uitzien en het blijft langer zitten.\" | \"I think it looks well-groomed and it lasts longer.\" |",
+            "timestamp": "2025-03-02T16:23:20.089581"
+        }
+    ]
+}

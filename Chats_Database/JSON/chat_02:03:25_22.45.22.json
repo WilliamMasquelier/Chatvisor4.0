@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_22.45.22",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1500,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T22:45:22.941488"
+        },
+        {
+            "role": "user",
+            "content": "\nExtract a list of all real people mentioned in this article.\n\nRequirements:\n1. Include only real individuals, not fictional characters or generic references\n2. Only include people who are actually discussed, not just mentioned in passing\n3. Remove any duplicates\n4. Include full names where available\n5. Do not include the article's author\n6. Do not include generic references like \"employees\" or \"officials\" without specific names\n7. DO NOT include non-people entities like institutions, companies, NGOs, etc...\n8. The person name MUST NOT be empty - if you can't identify the name, skip that person entirely.\n\nArticle:\nTitle: Orsted mit neuem CEO\nContent: Page 1 of 1\nOrsted mit neuem CEO\nOrsted mit neuem CEO\nEnergie & Management\n31. Januar 2025 Freitag\nCopyright 2025 Energie & Management Verlagsgesellschaft mbH Alle Rechte Vorbehalten\nSection: PERSONALIE; www.powernews.org\nLength: 150 words\nByline: Stefan Sagmeister\nBody\nRasmus Errboe \u00fcbernimmt die Position des Group President und CEO beim d\u00e4nischen Energieunternehmen \nOrsted. Er folgt auf Mads Nipper.\nDer Aufsichtsrat des d\u00e4nischen Energiekonzerns Orsted hat Rasmus Errboe, derzeit stellvertretender CEO und \nChief Commercial Officer, zum neuen Group President und CEO des Unternehmens ernannt. Er tritt die Nachfolge \nvon Mads Nipper an, der seine Position zum 1. Februar abgibt, teilte Orsted mit.\nErrboe ist seit 2012 bei Orsted t\u00e4tig und geh\u00f6rt seit 2022 dem F\u00fchrungsteam an. Zuvor hatte er verschiedene \nleitende Positionen inne, darunter Interim Group CFO, Regional Head of Europe, Regional Head of Continental \nEurope sowie CFO der Offshore-Sparte. Zudem war er ma\u00dfgeblich an Orsteds B\u00f6rsengang 2016 sowie der \nAbspaltung des \u00d6l- und Gasgesch\u00e4fts 2017 beteiligt. Errboe hat einen Master of Law von der Universit\u00e4t \nKopenhagen sowie einen MBA von der University of San Diego.\nLoad-Date: January 31, 2025\nEnd of Document\n\nOutput Format:\n**PERSON**: [Full Name]\n**ROLE**: [Person's role or position]\n**CONTEXT**: [Brief description of how the person is discussed in the article]\n\nExample Output:\n**PERSON**: Elon Musk\n**ROLE**: CEO of Tesla and SpaceX\n**CONTEXT**: Primary subject of article, discussing company strategy\n\nOnly include people who play a meaningful role in the article's content. Return \"None\" if no relevant people are mentioned.\nYou must exclude Orsted from your output.\n",
+            "timestamp": "2025-03-02T22:45:22.941503"
+        },
+        {
+            "role": "assistant",
+            "content": "**PERSON**: Rasmus Errboe  \n**ROLE**: Group President and CEO of Orsted  \n**CONTEXT**: Discussed as the new CEO of Orsted, succeeding Mads Nipper.  \n\n**PERSON**: Mads Nipper  \n**ROLE**: Former CEO of Orsted  \n**CONTEXT**: Mentioned as the individual Rasmus Errboe is succeeding in the CEO position.  \n\nNone",
+            "timestamp": "2025-03-02T22:45:24.659631"
+        }
+    ]
+}

@@ -1,0 +1,201 @@
+/* Overall body adjustments */
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.2;
+    color: #333;
+    background: #fff;
+    margin: 25px;
+}
+
+/* Heading styles for clear section demarcation */
+h1, h2, h3, h4 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+h1 {
+    font-size: 17pt;
+    border-bottom: 2px solid #666;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+h3 {
+    font-size: 13pt;
+}
+
+h4 {
+    font-size: 11pt;
+}
+
+/* Paragraph styling */
+p {
+    text-align: justify;
+    text-indent: 15px;
+    margin-bottom: 8px;
+}
+
+/* Lists styling for clarity in points */
+ul, ol {
+    padding-left: 15px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+/* Link styling */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Enhanced table styling for better markdown handling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 1em 0;
+    font-size: 0.95em;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    table-layout: auto; /* Enable automatic column width based on content */
+}
+
+/* Table header styling */
+thead {
+    background: #f5f7fa;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+th {
+    background-color: #f5f7fa;
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #e0e0e0;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Add subtle border between header cells */
+th:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 50%;
+    width: 1px;
+    background-color: #e0e0e0;
+}
+
+/* Table cell styling */
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #3c4858;
+    vertical-align: top;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+    background-color: #f0f4f8;
+}
+
+/* Last row styling */
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Handle overflow in cells */
+td, th {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* Add width classes for different content types */
+.table-col-xs {
+    width: 5%;
+}
+
+.table-col-sm {
+    width: 10%;
+}
+
+.table-col-md {
+    width: 20%;
+}
+
+.table-col-lg {
+    width: 30%;
+}
+
+.table-col-xl {
+    width: 40%;
+}
+
+/* Column specific handling */
+td.numeric, th.numeric {
+    text-align: right;
+    white-space: nowrap;
+}
+
+td.date, th.date {
+    white-space: nowrap;
+    width: auto;
+}
+
+/* Responsive table handling */
+@media screen and (max-width: 600px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    /* Keep table structure on small screens */
+    thead, tbody, tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    /* Ensure header text stays visible */
+    th {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* Code block styling for code references or quotes */
+pre, code {
+    font-family: 'Courier New', monospace;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+/* Footer and Header styling if needed */
+header, footer {
+    font-size: 8pt;
+    color: #666;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

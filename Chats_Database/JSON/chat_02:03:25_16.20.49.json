@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_16.20.49",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T16:20:49.796048"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Acrylnagelproducten's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Daisy Heyer-Markos | Journalist | \"Als ik dat nou had geweten v\u00f3\u00f3r ik ooit aan al die zooi begon\u2026\" |\n| Daisy Heyer-Markos | Journalist | \"Ik geloof met heel mijn hart dat de mensen uit de salons waar ik ben geweest \u00e9cht niet wisten wat voor schadelijke gevolgen de stoffen in gellak (maar dus \u00f3\u00f3k in de zogenaamd veiligere biab of hema-vrije gellak) en dergelijke konden hebben.\" |\n| Daisy Heyer-Markos | Journalist | \"Mijn advies: besef je voordat je aan dit soort dingen begint, dat het allemaal nieuw is en de langetermijneffecten van het gebruik van dit soort stoffen relatief onbekend zijn.\" |\n        ",
+            "timestamp": "2025-03-02T16:20:49.796067"
+        },
+        {
+            "role": "assistant",
+            "content": "| Daisy Heyer-Markos | Journalist | \"Als ik dat nou had geweten v\u00f3\u00f3r ik ooit aan al die zooi begon\u2026\" | \"If I had known that before I ever started all that mess...\" |\n| Daisy Heyer-Markos | Journalist | \"Ik geloof met heel mijn hart dat de mensen uit de salons waar ik ben geweest \u00e9cht niet wisten wat voor schadelijke gevolgen de stoffen in gellak (maar dus \u00f3\u00f3k in de zogenaamd veiligere biab of hema-vrije gellak) en dergelijke konden hebben.\" | \"I truly believe with all my heart that the people from the salons I have been to really did not know what harmful effects the substances in gel polish (but also in the so-called safer biab or hema-free gel polish) and such could have.\" |\n| Daisy Heyer-Markos | Journalist | \"Mijn advies: besef je voordat je aan dit soort dingen begint, dat het allemaal nieuw is en de langetermijneffecten van het gebruik van dit soort stoffen relatief onbekend zijn.\" | \"My advice: realize before you start with these kinds of things that it is all new and the long-term effects of using these kinds of substances are relatively unknown.\" |",
+            "timestamp": "2025-03-02T16:20:53.556015"
+        }
+    ]
+}

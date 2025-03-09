@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.46.22",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:46:22.599473"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Artsen maken zich zorgen om gellak: het kan voor een hele onhandige allergie zorgen](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6D97-M9N1-F16W-M1JX-00000-00&context=1519360)\n## Metronieuws\n### Anonymous\n### October 29, 2024\n\n1. There is a growing concern among medical professionals regarding the increasing number of patients developing allergies to gel nail polish (gellak), which is often caused by the acrylates present in these products.\n\n2. Allergic reactions can occur not only from direct application but also from mishaps such as spills or inadequate curing under UV lamps, leading to long-term health issues.\n\n3. Dermatologists warn that once an individual develops an allergy to acrylates, they may face complications in future medical treatments, as these substances are used in various medical applications, including dental fillings and orthopedic devices.\n\n4. The rise in home use of gel nail products is contributing to the increase in reported allergies, as consumers may not be aware of the risks associated with improper application and curing techniques. \n\n5. The majority of those affected by these allergies are women, highlighting a significant gender disparity in the health impacts associated with the use of gel nail products.",
+            "timestamp": "2025-03-02T15:46:22.599520"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Artsen maken zich zorgen om gellak: het kan voor een hele onhandige allergie zorgen](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6D97-M9N1-F16W-M1JX-00000-00&context=1519360)\n## Metronieuws\n### Anoniem\n### 29 oktober 2024\n\n1. Er is groeiende bezorgdheid onder medische professionals over het toenemende aantal pati\u00ebnten dat allergie\u00ebn ontwikkelt voor gellak, wat vaak wordt veroorzaakt door de acrylaten die in deze producten aanwezig zijn.\n\n2. Allergische reacties kunnen niet alleen optreden door directe toepassing, maar ook door ongelukken zoals morsen of inadequate uitharding onder UV-lampen, wat kan leiden tot langdurige gezondheidsproblemen.\n\n3. Dermatologen waarschuwen dat zodra een individu een allergie voor acrylaten ontwikkelt, ze complicaties kunnen ondervinden bij toekomstige medische behandelingen, aangezien deze stoffen in verschillende medische toepassingen worden gebruikt, waaronder tandvullingen en orthopedische apparaten.\n\n4. De toename van het thuisgebruik van gellakproducten draagt bij aan de stijging van gerapporteerde allergie\u00ebn, aangezien consumenten zich mogelijk niet bewust zijn van de risico's die gepaard gaan met onjuiste applicatie en uithardingstechnieken.\n\n5. De meerderheid van de mensen die door deze allergie\u00ebn worden getroffen, zijn vrouwen, wat een significante genderongelijkheid in de gezondheidsimpact van het gebruik van gellakproducten benadrukt.",
+            "timestamp": "2025-03-02T15:46:27.459238"
+        }
+    ]
+}

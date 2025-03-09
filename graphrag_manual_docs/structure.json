@@ -1,0 +1,142 @@
+[
+  {
+    "url": "/",
+    "title": "Welcome",
+    "section": "Home"
+  },
+  {
+    "url": "/get_started/",
+    "title": "Getting Started",
+    "section": "Home"
+  },
+  {
+    "url": "/developing/",
+    "title": "Development Guide",
+    "section": "Home"
+  },
+  {
+    "url": "/index/overview/",
+    "title": "Indexing Overview",
+    "section": "Indexing"
+  },
+  {
+    "url": "/index/architecture/",
+    "title": "Architecture",
+    "section": "Indexing"
+  },
+  {
+    "url": "/index/default_dataflow/",
+    "title": "Dataflow",
+    "section": "Indexing"
+  },
+  {
+    "url": "/index/outputs/",
+    "title": "Outputs",
+    "section": "Indexing"
+  },
+  {
+    "url": "/prompt_tuning/overview/",
+    "title": "Prompt Tuning Overview",
+    "section": "Prompt Tuning"
+  },
+  {
+    "url": "/prompt_tuning/auto_prompt_tuning/",
+    "title": "Auto Tuning",
+    "section": "Prompt Tuning"
+  },
+  {
+    "url": "/prompt_tuning/manual_prompt_tuning/",
+    "title": "Manual Tuning",
+    "section": "Prompt Tuning"
+  },
+  {
+    "url": "/query/overview/",
+    "title": "Query Overview",
+    "section": "Query"
+  },
+  {
+    "url": "/query/global_search/",
+    "title": "Global Search",
+    "section": "Query"
+  },
+  {
+    "url": "/query/local_search/",
+    "title": "Local Search",
+    "section": "Query"
+  },
+  {
+    "url": "/query/drift_search/",
+    "title": "DRIFT Search",
+    "section": "Query"
+  },
+  {
+    "url": "/query/question_generation/",
+    "title": "Question Generation",
+    "section": "Query"
+  },
+  {
+    "url": "/query/notebooks/overview/",
+    "title": "Notebooks Overview",
+    "section": "Query Notebooks"
+  },
+  {
+    "url": "/examples_notebooks/global_search/",
+    "title": "Global Search Notebook",
+    "section": "Query Notebooks"
+  },
+  {
+    "url": "/examples_notebooks/local_search/",
+    "title": "Local Search Notebook",
+    "section": "Query Notebooks"
+  },
+  {
+    "url": "/examples_notebooks/drift_search/",
+    "title": "DRIFT Search Notebook",
+    "section": "Query Notebooks"
+  },
+  {
+    "url": "/config/overview/",
+    "title": "Configuration Overview",
+    "section": "Configuration"
+  },
+  {
+    "url": "/config/init/",
+    "title": "Init Command",
+    "section": "Configuration"
+  },
+  {
+    "url": "/config/yaml/",
+    "title": "Using YAML",
+    "section": "Configuration"
+  },
+  {
+    "url": "/config/env_vars/",
+    "title": "Using Env Vars",
+    "section": "Configuration"
+  },
+  {
+    "url": "/cli/",
+    "title": "CLI",
+    "section": "CLI"
+  },
+  {
+    "url": "/blog_posts/",
+    "title": "Microsoft Research Blog",
+    "section": "Extras"
+  },
+  {
+    "url": "/visualization_guide/",
+    "title": "Visualization Guide",
+    "section": "Extras"
+  },
+  {
+    "url": "/data/operation_dulce/ABOUT/",
+    "title": "Operation Dulce - About",
+    "section": "Extras"
+  },
+  {
+    "url": "/data/operation_dulce/Operation%20Dulce%20v2%201%201/",
+    "title": "Operation Dulce - Document",
+    "section": "Extras"
+  }
+]

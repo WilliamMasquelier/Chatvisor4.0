@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.13.14",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:13:15.024165"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Kieran White | Vicepresidente Senior y Jefe de Onshore en la regi\u00f3n de Europa de Orsted | \"Como parte de nuestro plan de negocio actualizado, hemos revisado nuestras ambiciones de construcci\u00f3n hacia 2030 con un \u00e9nfasis en donde creemos que podemos obtener el mayor valor para Orsted. Sobre la base de este plan, hemos decidido concentrar nuestros esfuerzos en los mercados brit\u00e1nico, irland\u00e9s, alem\u00e1n y espa\u00f1ol de energ\u00eda e\u00f3lica y solar terrestre, en Europa. En este sentido, estoy muy satisfecho de que hayamos encontrado un buen futuro propietario de Ostwind France en Engie.\" |\n        ",
+            "timestamp": "2025-03-02T23:13:15.024185"
+        },
+        {
+            "role": "assistant",
+            "content": "| Kieran White | Vicepresidente Senior y Jefe de Onshore en la regi\u00f3n de Europa de Orsted | \"Como parte de nuestro plan de negocio actualizado, hemos revisado nuestras ambiciones de construcci\u00f3n hacia 2030 con un \u00e9nfasis en donde creemos que podemos obtener el mayor valor para Orsted. Sobre la base de este plan, hemos decidido concentrar nuestros esfuerzos en los mercados brit\u00e1nico, irland\u00e9s, alem\u00e1n y espa\u00f1ol de energ\u00eda e\u00f3lica y solar terrestre, en Europa. En este sentido, estoy muy satisfecho de que hayamos encontrado un buen futuro propietario de Ostwind France en Engie.\" | \"As part of our updated business plan, we have reviewed our construction ambitions towards 2030 with an emphasis on where we believe we can obtain the greatest value for Orsted. Based on this plan, we have decided to focus our efforts on the British, Irish, German, and Spanish onshore wind and solar markets in Europe. In this regard, I am very pleased that we have found a good future owner of Ostwind France in Engie.\" |",
+            "timestamp": "2025-03-02T23:13:18.423435"
+        }
+    ]
+}

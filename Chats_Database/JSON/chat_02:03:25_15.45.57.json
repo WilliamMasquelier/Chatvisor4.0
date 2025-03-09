@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.45.57",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:45:57.098916"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Kunstnagelallergie kan vervelende gevolgen hebben: dit wil je erover weten](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DYC-JN23-RSR8-R2X0-00000-00&context=1519360)\n## Margriet\n### Lisa Manche\n### June 28, 2024\n\n1. The use of acrylates in nail products, such as acrylic nails and gel nail polish, poses a risk of developing allergies, which can lead to severe skin reactions and respiratory issues.\n\n2. Dermatology expert Thomas Rustemeyer highlights that once an individual becomes allergic to acrylates, the condition is permanent, complicating future use of nail products and potentially affecting other medical treatments.\n\n3. The rising incidence of acrylate allergies is concerning, as these substances are also found in various medical applications, including dental fillings and prosthetics, which could hinder treatment options for affected individuals.\n\n4. Proper application techniques by trained nail technicians can reduce the risk of developing acrylate allergies, emphasizing the importance of professional services in mitigating health risks associated with nail products.",
+            "timestamp": "2025-03-02T15:45:57.098935"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Kunstnagelallergie kan vervelende gevolgen hebben: dit wil je erover weten](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DYC-JN23-RSR8-R2X0-00000-00&context=1519360)\n## Margriet\n### Lisa Manche\n### 28 juni 2024\n\n1. Het gebruik van acrylaten in nagelproducten, zoals acrylnagels en gelnagellak, vormt een risico op het ontwikkelen van allergie\u00ebn, wat kan leiden tot ernstige huidreacties en ademhalingsproblemen.\n\n2. Dermatologie-expert Thomas Rustemeyer benadrukt dat zodra een persoon allergisch wordt voor acrylaten, de aandoening permanent is, wat het toekomstig gebruik van nagelproducten bemoeilijkt en mogelijk andere medische behandelingen be\u00efnvloedt.\n\n3. De toenemende incidentie van acrylaatallergie\u00ebn is zorgwekkend, aangezien deze stoffen ook in verschillende medische toepassingen worden aangetroffen, waaronder tandvullingen en protheses, wat de behandelingsopties voor getroffen individuen kan belemmeren.\n\n4. Juiste applicatietechnieken door opgeleide nageltechnici kunnen het risico op het ontwikkelen van acrylaatallergie\u00ebn verminderen, wat het belang van professionele diensten benadrukt bij het verminderen van gezondheidsrisico's die verband houden met nagelproducten.",
+            "timestamp": "2025-03-02T15:46:00.798618"
+        }
+    ]
+}

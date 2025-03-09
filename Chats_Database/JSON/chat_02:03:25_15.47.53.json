@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.47.53",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:47:53.939446"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Gemist? Open dag Saxion krijgt duur staartje voor veel ouders & Faillissement raakt Willy W. nu ook priv\u00e9](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DFS-63X1-JBHV-K1V3-00000-00&context=1519360)\n## De Gelderlander\n### Anonymous\n### November 19, 2024\n\n1. The rising popularity of gel nails, particularly Acrylnagelproducten, is leading to an increase in cases of acrylate allergies among users, raising health concerns within the beauty community.\n   \n2. A dermatologist from MST has issued warnings about the potential long-term consequences of using Acrylnagelproducten, emphasizing the importance of seeking services from experienced stylists to mitigate risks.\n\n3. The trend of DIY gel nails at home is contributing to a surge in allergic reactions, highlighting a need for better education and awareness regarding safe application practices in the beauty industry.",
+            "timestamp": "2025-03-02T15:47:53.939467"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Gemist? Open dag Saxion krijgt duur staartje voor veel ouders & Faillissement raakt Willy W. nu ook priv\u00e9](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DFS-63X1-JBHV-K1V3-00000-00&context=1519360)\n## De Gelderlander\n### Anoniem\n### 19 november 2024\n\n1. De toenemende populariteit van gelnagels, met name Acrylnagelproducten, leidt tot een stijging van het aantal gevallen van acrylate-allergie\u00ebn onder gebruikers, wat gezondheidszorgen oproept binnen de schoonheidscommunity.\n   \n2. Een dermatoloog van MST heeft waarschuwingen afgegeven over de mogelijke langetermijngevolgen van het gebruik van Acrylnagelproducten, waarbij het belang van het inschakelen van ervaren stylisten wordt benadrukt om risico's te verminderen.\n\n3. De trend van DIY gelnagels thuis draagt bij aan een toename van allergische reacties, wat de noodzaak onderstreept voor betere educatie en bewustwording over veilige applicatiepraktijken in de schoonheidsindustrie.",
+            "timestamp": "2025-03-02T15:47:57.266327"
+        }
+    ]
+}

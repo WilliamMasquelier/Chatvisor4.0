@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.16.01",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:16:01.404141"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Jean-Philippe H\u00e9raud | Responsable du programme biocarburants et e-fuels \u00e0 l'Ifpen | \"Les march\u00e9s sont \u00e0 des degr\u00e9s de maturit\u00e9 diff\u00e9rents.\" |\n| Benoit Decourt | Co-fondateur d'Elyse Energy | \"Ce type d'annonce est naturel dans cette phase du march\u00e9.\" |\n| Charlotte de Lorgeril | Directrice du bureau fran\u00e7ais des e-fuels chez Sia Partners | \"La comp\u00e9titivit\u00e9 des projets fran\u00e7ais d\u00e9pendra de leur capacit\u00e9 \u00e0 s\u00e9curiser des contrats d'achat d'\u00e9lectricit\u00e9 bas carbone sur le long terme \u00e0 un prix suffisamment bas.\" |\n        ",
+            "timestamp": "2025-03-02T23:16:01.404162"
+        },
+        {
+            "role": "assistant",
+            "content": "| Jean-Philippe H\u00e9raud | Responsable du programme biocarburants et e-fuels \u00e0 l'Ifpen | \"Les march\u00e9s sont \u00e0 des degr\u00e9s de maturit\u00e9 diff\u00e9rents.\" | \"Markets are at different levels of maturity.\" |\n| Benoit Decourt | Co-fondateur d'Elyse Energy | \"Ce type d'annonce est naturel dans cette phase du march\u00e9.\" | \"This type of announcement is natural in this phase of the market.\" |\n| Charlotte de Lorgeril | Directrice du bureau fran\u00e7ais des e-fuels chez Sia Partners | \"La comp\u00e9titivit\u00e9 des projets fran\u00e7ais d\u00e9pendra de leur capacit\u00e9 \u00e0 s\u00e9curiser des contrats d'achat d'\u00e9lectricit\u00e9 bas carbone sur le long terme \u00e0 un prix suffisamment bas.\" | \"The competitiveness of French projects will depend on their ability to secure long-term low-carbon electricity purchase contracts at a sufficiently low price.\" |",
+            "timestamp": "2025-03-02T23:16:05.876804"
+        }
+    ]
+}

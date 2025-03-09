@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_00.14.45",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-03T00:14:45.735312"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"We weten niet zo goed hoe je het meest risico loopt, maar wel wat risicofactoren zijn.\" | \"We don't really know how you are most at risk, but we do know what the risk factors are.\" |\n| Hester Hendriks | Toxicologist | \"Acrylaten zitten vaak als filmvormer in nagellakproducten.\" | \"Acrylates are often used as film-formers in nail polish products.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Je kunt de eerste keer dat je gelnagels laat zetten allergisch worden.\" | \"You can become allergic the first time you have gel nails applied.\" |\n| Hester Hendriks | Toxicologist | \"Soms wordt niet alle informatie op het etiket vermeld, vooral als producten uit het buitenland komen.\" | \"Sometimes not all information is listed on the label, especially if products come from abroad.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Het begint met wat jeuk en roodheid rondom de nagels, op de handen of het gezicht.\" | \"It starts with some itching and redness around the nails, on the hands or face.\" |\n| Hester Hendriks | Toxicologist | \"Zorg er daarom ook bij lijm voor kunstnagels voor dat het niet op je huid of nagelriemen komt.\" | \"Therefore, also ensure that glue for artificial nails does not come into contact with your skin or cuticles.\" |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Acrylnagelproducten.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Acrylnagelproducten or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-03T00:14:45.735330"
+        },
+        {
+            "role": "assistant",
+            "content": "| Thomas Rustemeyer | Dermatologist-Allergologist | \"We weten niet zo goed hoe je het meest risico loopt, maar wel wat risicofactoren zijn.\" | \"We don't really know how you are most at risk, but we do know what the risk factors are.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Je kunt de eerste keer dat je gelnagels laat zetten allergisch worden.\" | \"You can become allergic the first time you have gel nails applied.\" |\n| Thomas Rustemeyer | Dermatologist-Allergologist | \"Het begint met wat jeuk en roodheid rondom de nagels, op de handen of het gezicht.\" | \"It starts with some itching and redness around the nails, on the hands or face.\" |\n| Hester Hendriks | Toxicologist | \"Acrylaten zitten vaak als filmvormer in nagellakproducten.\" | \"Acrylates are often used as film-formers in nail polish products.\" |\n| Hester Hendriks | Toxicologist | \"Soms wordt niet alle informatie op het etiket vermeld, vooral als producten uit het buitenland komen.\" | \"Sometimes not all information is listed on the label, especially if products come from abroad.\" |\n| Hester Hendriks | Toxicologist | \"Zorg er daarom ook bij lijm voor kunstnagels voor dat het niet op je huid of nagelriemen komt.\" | \"Therefore, also ensure that glue for artificial nails does not come into contact with your skin or cuticles.\" |",
+            "timestamp": "2025-03-03T00:14:50.095194"
+        }
+    ]
+}

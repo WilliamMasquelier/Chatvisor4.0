@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.47.01",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:47:02.038603"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Bordeauxrode acrylnagels: 'Leuk voor de herfst', maar je kan er wel een allergie aan overhouden](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6D9N-74N1-JBNH-J1J4-00000-00&context=1519360)\n## NRC\n### Lotje van Den Dungen\n### October 31, 2024\n\n1. The incidence of acrylate allergies has increased significantly, with over 4% of patients at Amsterdam UMC testing positive, up from 2.3% a decade ago, indicating a growing health concern associated with the use of gel and acrylic nails.\n\n2. The demographic of patients suffering from acrylate allergies has shifted predominantly to women, contrasting with previous trends where such allergies were more common among men in manual labor professions.\n\n3. Dermatologists are increasingly observing cases of eczema and other skin conditions around the nails and face in women who frequently use acrylic or gel nails, suggesting a direct correlation between nail cosmetics and skin health issues.\n\n4. The risk of developing an acrylate allergy is heightened with repeated exposure, and once acquired, it can lead to intolerance to other acrylate-containing products, which may have serious health implications, including rejection of medical implants.\n\n5. The article highlights the dangers of DIY nail applications, as many consumers are unaware of the risks associated with improper use of acrylic products, which can lead to skin contact and subsequent allergic reactions.",
+            "timestamp": "2025-03-02T15:47:02.038675"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Bordeauxrode acrylnagels: 'Leuk voor de herfst', maar je kan er wel een allergie aan overhouden](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6D9N-74N1-JBNH-J1J4-00000-00&context=1519360)\n## NRC\n### Lotje van Den Dungen\n### 31 oktober 2024\n\n1. De incidentie van acrylate-allergie\u00ebn is aanzienlijk toegenomen, met meer dan 4% van de pati\u00ebnten in Amsterdam UMC die positief testten, een stijging van 2,3% een decennium geleden, wat wijst op een groeiende gezondheidszorgkwestie die samenhangt met het gebruik van gel- en acrylnagels.\n\n2. De demografie van pati\u00ebnten die lijden aan acrylate-allergie\u00ebn is voornamelijk verschoven naar vrouwen, in tegenstelling tot eerdere trends waarbij dergelijke allergie\u00ebn vaker voorkwamen bij mannen in handarbeidberoepen.\n\n3. Dermatologen observeren steeds vaker gevallen van eczeem en andere huidproblemen rond de nagels en het gezicht bij vrouwen die regelmatig acrylnagels of gel-nagels gebruiken, wat wijst op een directe correlatie tussen nagelcosmetica en huidgezondheidsproblemen.\n\n4. Het risico om een acrylate-allergie te ontwikkelen is verhoogd bij herhaalde blootstelling, en eenmaal verworven kan het leiden tot intolerantie voor andere acrylate-bevattende producten, wat ernstige gezondheidsimplicaties kan hebben, waaronder afstoting van medische implantaten.\n\n5. Het artikel benadrukt de gevaren van doe-het-zelf nagelapplicaties, aangezien veel consumenten zich niet bewust zijn van de risico's die gepaard gaan met onjuist gebruik van acrylproducten, wat kan leiden tot huidcontact en daaropvolgende allergische reacties.",
+            "timestamp": "2025-03-02T15:47:07.091064"
+        }
+    ]
+}

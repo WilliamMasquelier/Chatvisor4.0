@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_00.12.51",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-03T00:12:51.556892"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Tanja Vogel | Dermatologist | \"Want acrylaten zitten in veel dingen.\" | \"Because acrylates are in many things.\" |\n| Tanja Vogel | Dermatologist | \"Ik merk dat steeds meer vrouwen met vingertopeczeem langskomen.\" | \"I notice that more and more women are coming in with fingertip eczema.\" |\n| Tanja Vogel | Dermatologist | \"Contactallergie\u00ebn houd je in principe levenslang.\" | \"Contact allergies are essentially lifelong.\" |\n| Tanja Vogel | Dermatologist | \"Als je die acrylatenallergie eenmaal ontwikkelt, kan je daar in de toekomst problemen mee krijgen.\" | \"Once you develop that acrylate allergy, you can have problems with it in the future.\" |\n| Kristina Hakobyan | Nail stylist | \"Ik krijg veel jonge meiden als klanten, die thuis zelf experimenteren met nagelsetjes zonder de benodigde kennis of kunde te hebben.\" | \"I get a lot of young girls as clients, who experiment at home with nail kits without the necessary knowledge or skills.\" |\n| Linda Meulman | Nail stylist | \"Een nagelstylist is geen erkend beroep, iedereen kan zonder opleiding iets beginnen.\" | \"A nail stylist is not a recognized profession; anyone can start something without training.\" |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Acrylnagelproducten.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Acrylnagelproducten or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-03T00:12:51.556915"
+        },
+        {
+            "role": "assistant",
+            "content": "| Tanja Vogel | Dermatologist | \"Want acrylaten zitten in veel dingen.\" | \"Because acrylates are in many things.\" |\n| Tanja Vogel | Dermatologist | \"Ik merk dat steeds meer vrouwen met vingertopeczeem langskomen.\" | \"I notice that more and more women are coming in with fingertip eczema.\" |\n| Tanja Vogel | Dermatologist | \"Contactallergie\u00ebn houd je in principe levenslang.\" | \"Contact allergies are essentially lifelong.\" |\n| Tanja Vogel | Dermatologist | \"Als je die acrylatenallergie eenmaal ontwikkelt, kan je daar in de toekomst problemen mee krijgen.\" | \"Once you develop that acrylate allergy, you can have problems with it in the future.\" |\n| Kristina Hakobyan | Nail stylist | \"Ik krijg veel jonge meiden als klanten, die thuis zelf experimenteren met nagelsetjes zonder de benodigde kennis of kunde te hebben.\" | \"I get a lot of young girls as clients, who experiment at home with nail kits without the necessary knowledge or skills.\" |\n| Linda Meulman | Nail stylist | \"Een nagelstylist is geen erkend beroep, iedereen kan zonder opleiding iets beginnen.\" | \"A nail stylist is not a recognized profession; anyone can start something without training.\" |",
+            "timestamp": "2025-03-03T00:12:57.208536"
+        }
+    ]
+}

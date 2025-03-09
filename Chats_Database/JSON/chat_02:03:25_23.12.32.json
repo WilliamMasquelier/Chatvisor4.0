@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.12.32",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:12:32.255422"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Orsted | Not mentioned | \"Orsted hat Inbetriebnahme-Daten zwischen dem 18. und dem 29. April angegeben.\" |\n| Glennmont Partners | Not mentioned | \"Bei der Windkraft auf See macht sich die kurz bevorstehende Inbetriebnahme der ersten 115 MW im Nordsee-Windpark \u201eGode Wind 3\u201c von Orsted und Glennmont Partners bemerkbar.\" |\n        ",
+            "timestamp": "2025-03-02T23:12:32.255441"
+        },
+        {
+            "role": "assistant",
+            "content": "| Orsted | Not mentioned | \"Orsted hat Inbetriebnahme-Daten zwischen dem 18. und dem 29. April angegeben.\" | \"Orsted has provided commissioning data between April 18 and April 29.\" |\n| Glennmont Partners | Not mentioned | \"Bei der Windkraft auf See macht sich die kurz bevorstehende Inbetriebnahme der ersten 115 MW im Nordsee-Windpark \u201eGode Wind 3\u201c von Orsted und Glennmont Partners bemerkbar.\" | \"In offshore wind power, the imminent commissioning of the first 115 MW at the North Sea wind farm 'Gode Wind 3' by Orsted and Glennmont Partners is noticeable.\" |",
+            "timestamp": "2025-03-02T23:12:34.981868"
+        }
+    ]
+}

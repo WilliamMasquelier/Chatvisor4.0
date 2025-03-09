@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_00.07.17",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-03T00:07:17.808474"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\nConsumenten die thuis experimenteren zonder professionele kennis lopen een verhoogd risico op allergie\u00ebn en nagelschade, wat kan leiden tot negatieve recensies en reputatieschade voor merken die deze producten verkopen. Dit kan resulteren in dalende verkoopcijfers en mogelijke aansprakelijkheidsclaims.",
+            "timestamp": "2025-03-03T00:07:17.808489"
+        },
+        {
+            "role": "assistant",
+            "content": "Consumenten die thuis experimenteren zonder professionele kennis lopen een verhoogd risico op allergie\u00ebn en nagelschade, wat kan leiden tot negatieve recensies en reputatieschade voor merken die deze producten verkopen. Dit kan resulteren in dalende verkoopcijfers en mogelijke aansprakelijkheidsclaims.",
+            "timestamp": "2025-03-03T00:07:19.205152"
+        }
+    ]
+}

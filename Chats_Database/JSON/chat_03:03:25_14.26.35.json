@@ -1,0 +1,24 @@
+{
+    "id": "03:03:25_14.26.35",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-03T14:26:35.350387"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\nDe directe impact op gebruikers, zoals eczeem, jeuk en loslatende nagels, kan leiden tot negatieve publiciteit en consumentenklachten. Dit kan resulteren in terugroepacties, schadeclaims en een daling in verkoop.",
+            "timestamp": "2025-03-03T14:26:35.350399"
+        },
+        {
+            "role": "assistant",
+            "content": "De directe impact op gebruikers, zoals eczeem, jeuk en loslatende nagels, kan leiden tot negatieve publiciteit en consumentenklachten. Dit kan resulteren in terugroepacties, schadeclaims en een daling in verkoop.",
+            "timestamp": "2025-03-03T14:26:36.864616"
+        }
+    ]
+}

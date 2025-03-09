@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.47.38",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:47:38.887180"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Wat zijn de risico's van gelnagels?](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DD5-J211-DYRY-X3TP-00000-00&context=1519360)\n## Het Parool\n### Malika Sevil\n### November 12, 2024\n\n1. The prevalence of acrylate allergies has increased among patients, particularly women, with the percentage rising from 2% to 4% over the past decade, indicating a growing health concern linked to the use of gel nails.\n\n2. Dermatologists are observing a significant rise in cases of acrylate allergies, especially among women who attempt to apply gel nails at home, often leading to improper application and increased risk of allergic reactions.\n\n3. The materials used in gel nail products, specifically acrylates like HEMA and Di-HEMA, can penetrate the skin and cause severe allergic reactions, which may manifest as red, itchy swelling, blisters, and even respiratory issues.\n\n4. Once an individual develops an allergy to acrylates, they face lifelong consequences, as these compounds are present in various everyday products, including dental fillings, certain lotions, and medical adhesives, severely limiting their options for personal care and medical treatments. \n\n5. There is a concerning lack of awareness among young women regarding the long-term risks associated with gel nails, as many do not consider the potential future implications of developing an acrylate allergy, which could affect their health and quality of life.",
+            "timestamp": "2025-03-02T15:47:38.887208"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Wat zijn de risico's van gelnagels?](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DD5-J211-DYRY-X3TP-00000-00&context=1519360)\n## Het Parool\n### Malika Sevil\n### November 12, 2024\n\n1. De prevalentie van acrylaatallergie\u00ebn is toegenomen onder pati\u00ebnten, met name vrouwen, met een percentage dat in het afgelopen decennium is gestegen van 2% naar 4%, wat wijst op een groeiende gezondheidszorg die verband houdt met het gebruik van gelnagels.\n\n2. Dermatologen constateren een significante stijging van het aantal gevallen van acrylaatallergie\u00ebn, vooral onder vrouwen die proberen gelnagels thuis aan te brengen, wat vaak leidt tot onjuiste toepassing en een verhoogd risico op allergische reacties.\n\n3. De materialen die worden gebruikt in gelnagelproducten, met name acrylaten zoals HEMA en Di-HEMA, kunnen de huid binnendringen en ernstige allergische reacties veroorzaken, die zich kunnen uiten als rode, jeukende zwellingen, blaren en zelfs ademhalingsproblemen.\n\n4. Zodra een individu een allergie voor acrylaten ontwikkelt, heeft dit levenslange gevolgen, aangezien deze verbindingen aanwezig zijn in verschillende alledaagse producten, waaronder tandvullingen, bepaalde lotions en medische hechtmiddelen, wat hun opties voor persoonlijke verzorging en medische behandelingen ernstig beperkt.\n\n5. Er is een verontrustend gebrek aan bewustzijn onder jonge vrouwen over de langetermijnrisico's die gepaard gaan met gelnagels, aangezien velen de mogelijke toekomstige implicaties van het ontwikkelen van een acrylaatallergie niet overwegen, wat hun gezondheid en kwaliteit van leven zou kunnen be\u00efnvloeden.",
+            "timestamp": "2025-03-02T15:47:44.330088"
+        }
+    ]
+}

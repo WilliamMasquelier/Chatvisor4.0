@@ -1,0 +1,1356 @@
+{
+    "execution_time": 490.213928937912,
+    "chatbot_calls": [
+        {
+            "timestamp": "2025-03-03T13:48:38.524791",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 251,
+            "response_tokens": 1759,
+            "total_input_tokens": 251,
+            "execution_time": 26.205354928970337,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:15.072412",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 31893.2,
+            "response_tokens": 7574,
+            "total_input_tokens": 31893.2,
+            "execution_time": 96.53245711326599,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:43.264490",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 7757,
+            "response_tokens": 903,
+            "total_input_tokens": 7757,
+            "execution_time": 28.146236896514893,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:44.357397",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1098,
+            "response_tokens": 11,
+            "total_input_tokens": 1098,
+            "execution_time": 1.052668809890747,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:45.493323",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 1.0978291034698486,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:46.757340",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1091,
+            "response_tokens": 11,
+            "total_input_tokens": 1091,
+            "execution_time": 1.2260661125183105,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:47.829782",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1106,
+            "response_tokens": 11,
+            "total_input_tokens": 1106,
+            "execution_time": 1.0328052043914795,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:49.010270",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1105,
+            "response_tokens": 11,
+            "total_input_tokens": 1105,
+            "execution_time": 1.1412889957427979,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:50.161669",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1098,
+            "response_tokens": 16,
+            "total_input_tokens": 1098,
+            "execution_time": 1.1148810386657715,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:51.561705",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 8,
+            "total_input_tokens": 1100,
+            "execution_time": 1.3703129291534424,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:52.933445",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1095,
+            "response_tokens": 14,
+            "total_input_tokens": 1095,
+            "execution_time": 1.3323090076446533,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:53.781191",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1094,
+            "response_tokens": 11,
+            "total_input_tokens": 1094,
+            "execution_time": 0.8107569217681885,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:54.685868",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1089,
+            "response_tokens": 11,
+            "total_input_tokens": 1089,
+            "execution_time": 0.86726975440979,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:55.622966",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1092,
+            "response_tokens": 11,
+            "total_input_tokens": 1092,
+            "execution_time": 0.898284912109375,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:56.545773",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1124,
+            "response_tokens": 11,
+            "total_input_tokens": 1124,
+            "execution_time": 0.8849661350250244,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:57.438185",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1113,
+            "response_tokens": 11,
+            "total_input_tokens": 1113,
+            "execution_time": 0.8561902046203613,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:58.386053",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1110,
+            "response_tokens": 11,
+            "total_input_tokens": 1110,
+            "execution_time": 0.910742998123169,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:50:59.412256",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1104,
+            "response_tokens": 11,
+            "total_input_tokens": 1104,
+            "execution_time": 0.9884700775146484,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:00.252705",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1108,
+            "response_tokens": 16,
+            "total_input_tokens": 1108,
+            "execution_time": 0.7953448295593262,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:01.559461",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1106,
+            "response_tokens": 11,
+            "total_input_tokens": 1106,
+            "execution_time": 1.2701659202575684,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:02.761385",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 1.163597822189331,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:04.019929",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1099,
+            "response_tokens": 11,
+            "total_input_tokens": 1099,
+            "execution_time": 1.2203209400177002,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:04.885392",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1099,
+            "response_tokens": 11,
+            "total_input_tokens": 1099,
+            "execution_time": 0.828855037689209,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:05.791723",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1101,
+            "response_tokens": 11,
+            "total_input_tokens": 1101,
+            "execution_time": 0.8688130378723145,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:07.104737",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 11,
+            "total_input_tokens": 1100,
+            "execution_time": 1.2747058868408203,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:08.336876",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1094,
+            "response_tokens": 11,
+            "total_input_tokens": 1094,
+            "execution_time": 1.1879899501800537,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:09.446986",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 11,
+            "total_input_tokens": 1100,
+            "execution_time": 1.0733160972595215,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:10.286505",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1095,
+            "response_tokens": 11,
+            "total_input_tokens": 1095,
+            "execution_time": 0.797544002532959,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:11.438406",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1121,
+            "response_tokens": 16,
+            "total_input_tokens": 1121,
+            "execution_time": 1.114616870880127,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:12.328743",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 11,
+            "total_input_tokens": 1100,
+            "execution_time": 0.856065034866333,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:14.072258",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 1.7065870761871338,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:15.067483",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1095,
+            "response_tokens": 11,
+            "total_input_tokens": 1095,
+            "execution_time": 0.9588978290557861,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:16.427690",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1103,
+            "response_tokens": 11,
+            "total_input_tokens": 1103,
+            "execution_time": 1.3329071998596191,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:17.548012",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1103,
+            "response_tokens": 11,
+            "total_input_tokens": 1103,
+            "execution_time": 1.0830421447753906,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:18.705926",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1091,
+            "response_tokens": 11,
+            "total_input_tokens": 1091,
+            "execution_time": 1.1177918910980225,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:19.582710",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1088,
+            "response_tokens": 11,
+            "total_input_tokens": 1088,
+            "execution_time": 0.8320848941802979,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:20.917658",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1089,
+            "response_tokens": 16,
+            "total_input_tokens": 1089,
+            "execution_time": 1.2976601123809814,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:26.668985",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1088,
+            "response_tokens": 16,
+            "total_input_tokens": 1088,
+            "execution_time": 5.7133469581604,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:27.825635",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1094,
+            "response_tokens": 11,
+            "total_input_tokens": 1094,
+            "execution_time": 1.11722993850708,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:29.353211",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1088,
+            "response_tokens": 11,
+            "total_input_tokens": 1088,
+            "execution_time": 1.4896080493927002,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:31.137441",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1098,
+            "response_tokens": 11,
+            "total_input_tokens": 1098,
+            "execution_time": 1.7454869747161865,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:32.909210",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1086,
+            "response_tokens": 11,
+            "total_input_tokens": 1086,
+            "execution_time": 1.7333908081054688,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:34.012517",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1098,
+            "response_tokens": 11,
+            "total_input_tokens": 1098,
+            "execution_time": 1.0639631748199463,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:34.983394",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 0.9338588714599609,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:36.805929",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1091,
+            "response_tokens": 11,
+            "total_input_tokens": 1091,
+            "execution_time": 1.7839171886444092,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:37.745590",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1106,
+            "response_tokens": 11,
+            "total_input_tokens": 1106,
+            "execution_time": 0.9012219905853271,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:38.645839",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1105,
+            "response_tokens": 11,
+            "total_input_tokens": 1105,
+            "execution_time": 0.8633451461791992,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:39.602731",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1098,
+            "response_tokens": 16,
+            "total_input_tokens": 1098,
+            "execution_time": 0.917708158493042,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:40.861296",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 8,
+            "total_input_tokens": 1100,
+            "execution_time": 1.2175021171569824,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:42.214263",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1095,
+            "response_tokens": 14,
+            "total_input_tokens": 1095,
+            "execution_time": 1.3076059818267822,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:43.343830",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1094,
+            "response_tokens": 11,
+            "total_input_tokens": 1094,
+            "execution_time": 1.0932207107543945,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:44.268004",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1089,
+            "response_tokens": 11,
+            "total_input_tokens": 1089,
+            "execution_time": 0.8873240947723389,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:45.143232",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1092,
+            "response_tokens": 11,
+            "total_input_tokens": 1092,
+            "execution_time": 0.8364949226379395,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:45.992181",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1124,
+            "response_tokens": 11,
+            "total_input_tokens": 1124,
+            "execution_time": 0.818469762802124,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:46.889527",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1113,
+            "response_tokens": 11,
+            "total_input_tokens": 1113,
+            "execution_time": 0.8596451282501221,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:47.870222",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1110,
+            "response_tokens": 11,
+            "total_input_tokens": 1110,
+            "execution_time": 0.9418220520019531,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:49.175581",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1104,
+            "response_tokens": 11,
+            "total_input_tokens": 1104,
+            "execution_time": 1.2666592597961426,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:50.305173",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1108,
+            "response_tokens": 16,
+            "total_input_tokens": 1108,
+            "execution_time": 1.0938069820404053,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:51.433345",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1106,
+            "response_tokens": 11,
+            "total_input_tokens": 1106,
+            "execution_time": 1.091101884841919,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:52.252027",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 0.7792203426361084,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:53.378377",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1107,
+            "response_tokens": 11,
+            "total_input_tokens": 1107,
+            "execution_time": 1.081861972808838,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:55.600727",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 11,
+            "total_input_tokens": 1100,
+            "execution_time": 2.1855759620666504,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:57.371871",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 1.7327170372009277,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:51:59.352960",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1090,
+            "response_tokens": 16,
+            "total_input_tokens": 1090,
+            "execution_time": 1.9440677165985107,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:00.621187",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1093,
+            "response_tokens": 11,
+            "total_input_tokens": 1093,
+            "execution_time": 1.2305359840393066,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:01.896658",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1105,
+            "response_tokens": 11,
+            "total_input_tokens": 1105,
+            "execution_time": 1.2367830276489258,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:03.000140",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1097,
+            "response_tokens": 16,
+            "total_input_tokens": 1097,
+            "execution_time": 1.0661790370941162,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:03.967347",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1115,
+            "response_tokens": 11,
+            "total_input_tokens": 1115,
+            "execution_time": 0.9326448440551758,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:04.910304",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1103,
+            "response_tokens": 11,
+            "total_input_tokens": 1103,
+            "execution_time": 0.9034678936004639,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:06.022401",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1131,
+            "response_tokens": 11,
+            "total_input_tokens": 1131,
+            "execution_time": 1.0673339366912842,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:07.459283",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1099,
+            "response_tokens": 16,
+            "total_input_tokens": 1099,
+            "execution_time": 1.401278018951416,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:08.628704",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1110,
+            "response_tokens": 16,
+            "total_input_tokens": 1110,
+            "execution_time": 1.1303818225860596,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:09.820713",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1111,
+            "response_tokens": 11,
+            "total_input_tokens": 1111,
+            "execution_time": 1.1524901390075684,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:10.890070",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1126,
+            "response_tokens": 11,
+            "total_input_tokens": 1126,
+            "execution_time": 1.0264499187469482,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:11.809929",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1116,
+            "response_tokens": 8,
+            "total_input_tokens": 1116,
+            "execution_time": 0.8776950836181641,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:12.783020",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1101,
+            "response_tokens": 14,
+            "total_input_tokens": 1101,
+            "execution_time": 0.9353978633880615,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:13.961184",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1106,
+            "response_tokens": 11,
+            "total_input_tokens": 1106,
+            "execution_time": 1.140455961227417,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:17.527656",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1126,
+            "response_tokens": 11,
+            "total_input_tokens": 1126,
+            "execution_time": 3.528726100921631,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:18.718011",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1112,
+            "response_tokens": 16,
+            "total_input_tokens": 1112,
+            "execution_time": 1.1472952365875244,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:19.786410",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1132,
+            "response_tokens": 8,
+            "total_input_tokens": 1132,
+            "execution_time": 1.0308170318603516,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:21.120434",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 16,
+            "total_input_tokens": 1100,
+            "execution_time": 1.299126148223877,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:22.267951",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1101,
+            "response_tokens": 11,
+            "total_input_tokens": 1101,
+            "execution_time": 1.1089158058166504,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:23.420363",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1105,
+            "response_tokens": 11,
+            "total_input_tokens": 1105,
+            "execution_time": 1.1246941089630127,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:24.505045",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1105,
+            "response_tokens": 11,
+            "total_input_tokens": 1105,
+            "execution_time": 1.0469460487365723,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:25.569521",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1102,
+            "response_tokens": 11,
+            "total_input_tokens": 1102,
+            "execution_time": 1.0271918773651123,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:26.869461",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1110,
+            "response_tokens": 11,
+            "total_input_tokens": 1110,
+            "execution_time": 1.2567861080169678,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:27.722739",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 0.8157896995544434,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:28.540354",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1113,
+            "response_tokens": 11,
+            "total_input_tokens": 1113,
+            "execution_time": 0.7787961959838867,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:29.533491",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1108,
+            "response_tokens": 11,
+            "total_input_tokens": 1108,
+            "execution_time": 0.944504976272583,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:30.389142",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1116,
+            "response_tokens": 8,
+            "total_input_tokens": 1116,
+            "execution_time": 0.8157269954681396,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:31.380106",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1118,
+            "response_tokens": 11,
+            "total_input_tokens": 1118,
+            "execution_time": 0.9538922309875488,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:32.445482",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1092,
+            "response_tokens": 11,
+            "total_input_tokens": 1092,
+            "execution_time": 1.028106927871704,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:33.887356",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 11,
+            "total_input_tokens": 1100,
+            "execution_time": 1.3975369930267334,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:34.880662",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1113,
+            "response_tokens": 11,
+            "total_input_tokens": 1113,
+            "execution_time": 0.9561941623687744,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:36.040473",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1101,
+            "response_tokens": 16,
+            "total_input_tokens": 1101,
+            "execution_time": 1.1224398612976074,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:37.103423",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1119,
+            "response_tokens": 16,
+            "total_input_tokens": 1119,
+            "execution_time": 1.0248517990112305,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:38.011760",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 0.8708269596099854,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:40.702428",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1102,
+            "response_tokens": 16,
+            "total_input_tokens": 1102,
+            "execution_time": 2.6533398628234863,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:43.785353",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1108,
+            "response_tokens": 11,
+            "total_input_tokens": 1108,
+            "execution_time": 3.045290946960449,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:45.037782",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1098,
+            "response_tokens": 16,
+            "total_input_tokens": 1098,
+            "execution_time": 1.2135870456695557,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:47.385149",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1100,
+            "response_tokens": 11,
+            "total_input_tokens": 1100,
+            "execution_time": 2.2914199829101562,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:49.695687",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 2.2728772163391113,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:50.892344",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1095,
+            "response_tokens": 16,
+            "total_input_tokens": 1095,
+            "execution_time": 1.155925989151001,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:52:51.957560",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1109,
+            "response_tokens": 11,
+            "total_input_tokens": 1109,
+            "execution_time": 1.0225112438201904,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:53:10.305259",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 4970,
+            "response_tokens": 1831,
+            "total_input_tokens": 4970,
+            "execution_time": 18.30241322517395,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:53:29.891569",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 6536,
+            "response_tokens": 1973,
+            "total_input_tokens": 6536,
+            "execution_time": 19.546439170837402,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:53:49.912591",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 8053,
+            "response_tokens": 1925,
+            "total_input_tokens": 8053,
+            "execution_time": 19.981755018234253,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:53:57.246925",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 5918,
+            "response_tokens": 718,
+            "total_input_tokens": 5918,
+            "execution_time": 7.29428505897522,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:12.031674",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 6020,
+            "response_tokens": 1138,
+            "total_input_tokens": 6020,
+            "execution_time": 14.745400190353394,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:18.400424",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 8570,
+            "response_tokens": 533,
+            "total_input_tokens": 8570,
+            "execution_time": 6.329423904418945,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:24.523120",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 138,
+            "response_tokens": 372,
+            "total_input_tokens": 138,
+            "execution_time": 6.122199058532715,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:25.231225",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 40,
+            "response_tokens": 11,
+            "total_input_tokens": 40,
+            "execution_time": 0.6689600944519043,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:27.346946",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 104,
+            "response_tokens": 75,
+            "total_input_tokens": 104,
+            "execution_time": 2.0764729976654053,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:28.014793",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 40,
+            "response_tokens": 11,
+            "total_input_tokens": 40,
+            "execution_time": 0.6302058696746826,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:29.314513",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 93,
+            "response_tokens": 63,
+            "total_input_tokens": 93,
+            "execution_time": 1.2591960430145264,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:30.127049",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 40,
+            "response_tokens": 11,
+            "total_input_tokens": 40,
+            "execution_time": 0.773219108581543,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:33.760382",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 81,
+            "response_tokens": 52,
+            "total_input_tokens": 81,
+            "execution_time": 3.6023240089416504,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:34.762929",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 45,
+            "response_tokens": 16,
+            "total_input_tokens": 45,
+            "execution_time": 0.9648010730743408,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:35.813732",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 80,
+            "response_tokens": 50,
+            "total_input_tokens": 80,
+            "execution_time": 1.013617753982544,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:36.700239",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 43,
+            "response_tokens": 14,
+            "total_input_tokens": 43,
+            "execution_time": 0.8492701053619385,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:38.083126",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 84,
+            "response_tokens": 54,
+            "total_input_tokens": 84,
+            "execution_time": 1.3440930843353271,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:38.833823",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 38,
+            "response_tokens": 8,
+            "total_input_tokens": 38,
+            "execution_time": 0.7215259075164795,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:40.497157",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 90,
+            "response_tokens": 61,
+            "total_input_tokens": 90,
+            "execution_time": 1.6188101768493652,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:41.630184",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 40,
+            "response_tokens": 11,
+            "total_input_tokens": 40,
+            "execution_time": 1.0956101417541504,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:42.787365",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 97,
+            "response_tokens": 68,
+            "total_input_tokens": 97,
+            "execution_time": 1.1286921501159668,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:54:48.131972",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 401,
+            "response_tokens": 433,
+            "total_input_tokens": 401,
+            "execution_time": 5.307839870452881,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:55:01.593814",
+            "model": "chatgpt-4o-latest",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 8375,
+            "response_tokens": 492,
+            "total_input_tokens": 8375,
+            "execution_time": 12.164191961288452,
+            "function": "generate_issue_analysis_output"
+        },
+        {
+            "timestamp": "2025-03-03T13:55:13.131742",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 1167,
+            "response_tokens": 1144,
+            "total_input_tokens": 1167,
+            "execution_time": 11.501481056213379,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:56:07.399029",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 5879,
+            "response_tokens": 5531,
+            "total_input_tokens": 5879,
+            "execution_time": 54.22780799865723,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:56:14.093262",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 522,
+            "response_tokens": 497,
+            "total_input_tokens": 522,
+            "execution_time": 6.655965089797974,
+            "function": "translate_content"
+        },
+        {
+            "timestamp": "2025-03-03T13:56:20.954744",
+            "model": "gpt-4o-mini",
+            "system_prompt_tokens": 0,
+            "prompt_tokens": 748,
+            "response_tokens": 719,
+            "total_input_tokens": 748,
+            "execution_time": 6.823750257492065,
+            "function": "translate_content"
+        }
+    ],
+    "model_usage": {
+        "chatgpt-4o-latest": {
+            "calls": 11,
+            "input_tokens": 88481.2,
+            "output_tokens": 19218,
+            "execution_time": 255.37015652656555
+        },
+        "gpt-4o-mini": {
+            "calls": 120,
+            "input_tokens": 121106,
+            "output_tokens": 10024,
+            "execution_time": 227.0641758441925
+        }
+    },
+    "function_calls": {
+        "generate_issue_analysis_output": {
+            "calls": 112,
+            "execution_time": 380.1706895828247
+        },
+        "translate_content": {
+            "calls": 19,
+            "execution_time": 102.26364278793335
+        }
+    },
+    "articles_processed": 72,
+    "entities_extracted": {
+        "organizations": 0,
+        "people": 0
+    },
+    "operations_performed": [
+        {
+            "timestamp": "2025-03-03T13:48:12.263884",
+            "operation": "process_article",
+            "details": {
+                "article_count": 36
+            },
+            "execution_time": 1.0059897899627686
+        }
+    ],
+    "sentiment_analyses": 0,
+    "charts_generated": 0
+}

@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.46.53",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:46:53.094511"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Journalist Daisy is allergisch voor gelnagels: \u2019Nooit gewaarschuwd en nu levenslang de sjaak\u2019; Persoonlijk](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6D9N-H151-F16W-M215-00000-00&context=1519360)\n## De Telegraaf\n### Daisy Heyer-Markos\n### October 31, 2024\n\n1. Increasing cases of acrylate allergies linked to gel and acrylic nails are being reported, highlighting a growing health concern within the beauty industry in the Netherlands.\n\n2. The author, Daisy Heyer-Markos, shares her personal experience of developing an acrylate allergy after years of using professional nail products, emphasizing that even high-quality products can pose risks.\n\n3. There is a lack of awareness and communication from nail technicians regarding the potential long-term effects and allergic reactions associated with acrylate-containing products, which can lead to serious health implications.\n\n4. The article warns that acrylate allergies can have broader consequences, affecting future medical treatments such as dental work or surgeries, which rely on similar materials, thus raising concerns about consumer safety in the beauty sector.",
+            "timestamp": "2025-03-02T15:46:53.094534"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Journalist Daisy is allergisch voor gelnagels: \u2019Nooit gewaarschuwd en nu levenslang de sjaak\u2019; Persoonlijk](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6D9N-H151-F16W-M215-00000-00&context=1519360)\n## De Telegraaf\n### Daisy Heyer-Markos\n### 31 oktober 2024\n\n1. Er worden steeds meer gevallen van acrylate-allergie\u00ebn gerapporteerd die verband houden met gel- en acrylnagels, wat een groeiende gezondheidszorgkwestie binnen de schoonheidsindustrie in Nederland benadrukt.\n\n2. De auteur, Daisy Heyer-Markos, deelt haar persoonlijke ervaring met het ontwikkelen van een acrylate-allergie na jaren van gebruik van professionele nagelproducten, waarbij ze benadrukt dat zelfs hoogwaardige producten risico's kunnen met zich meebrengen.\n\n3. Er is een gebrek aan bewustzijn en communicatie van nageltechnici over de mogelijke langetermijneffecten en allergische reacties die gepaard gaan met acrylate-bevattende producten, wat kan leiden tot ernstige gezondheidsimplicaties.\n\n4. Het artikel waarschuwt dat acrylate-allergie\u00ebn bredere gevolgen kunnen hebben, die toekomstige medische behandelingen zoals tandheelkundige ingrepen of operaties kunnen be\u00efnvloeden, die afhankelijk zijn van vergelijkbare materialen, en daarmee zorgen oproepen over de veiligheid van consumenten in de schoonheidssector.",
+            "timestamp": "2025-03-02T15:46:57.467490"
+        }
+    ]
+}

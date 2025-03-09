@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.52.41",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 100,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T15:52:41.674378"
+        },
+        {
+            "role": "user",
+            "content": "\nGiven the following issue categories and their descriptions:\n\nAllergische reacties en gezondheidsrisico\u2019s door acrylaten: Acrylnagelproducten bevatten acrylaten, die ernstige allergische reacties kunnen veroorzaken. Deze allergie\u00ebn kunnen zich uiten in huidirritaties, eczeem en ademhalingsproblemen. In sommige gevallen kunnen de allergische reacties levenslang aanhouden en moeilijk te behandelen zijn. Zowel consumenten als nagelstylisten lopen risico op deze gezondheidsproblemen, vooral bij herhaald contact met de stoffen.\nImpact van acrylatenallergie op medische behandelingen: Een acrylatenallergie kan medische ingrepen bemoeilijken, omdat acrylaten ook in medische materialen zoals implantaten en tandheelkundige producten worden gebruikt. Mensen met deze allergie kunnen te maken krijgen met afstoting van implantaten of ernstige reacties op medische hulpmiddelen, wat hun toegang tot noodzakelijke behandelingen beperkt.\nVerhoogd risico door DIY-nagelkits en onjuiste toepassing: Zelf aangebrachte gellak en DIY-nagelkits verhogen het risico op allergische reacties en andere gezondheidsproblemen. Onervaren gebruikers kunnen producten verkeerd aanbrengen, wat leidt tot onvoldoende uitharding van gellak en verhoogde blootstelling aan schadelijke stoffen. Dit vergroot de kans op huidirritaties, eczeem en langdurige allergie\u00ebn.\nGezondheidsrisico\u2019s voor nagelstylisten door beroepsmatige blootstelling: Nagelstylisten lopen een verhoogd risico op allergie\u00ebn en andere gezondheidsproblemen door langdurige blootstelling aan acrylaten en chemische dampen. Regelmatig contact met deze stoffen kan leiden tot ademhalingsproblemen, huidirritaties en chronische allergie\u00ebn, wat hun werk en gezondheid ernstig kan be\u00efnvloeden.\nOnvoldoende regelgeving en waarschuwingen over gezondheidsrisico\u2019s: Er is een gebrek aan duidelijke regelgeving en waarschuwingen over de risico\u2019s van acrylaten in nagelproducten. Veel consumenten en professionals zijn zich niet bewust van de mogelijke gezondheidsgevolgen, wat leidt tot onveilige toepassingen en een toename van allergie\u00ebn en andere gezondheidsproblemen.\nSchade aan natuurlijke nagels door langdurig gebruik van nagelproducten: Langdurig gebruik van acrylnagels en gelnagels kan de natuurlijke nagels verzwakken en beschadigen. Dit kan leiden tot broze, dunne nagels en zelfs blijvend nagelverlies. Onjuiste verwijderingstechnieken, zoals mechanisch vijlen, kunnen de schade verder verergeren en schadelijke stoffen in de lucht verspreiden.\nToename van acrylatenallergie\u00ebn, ook bij kinderen: Het aantal gevallen van acrylatenallergie neemt sterk toe, mede door het wijdverbreide gebruik van nagelproducten. Zelfs kinderen, waaronder peuters, ontwikkelen steeds vaker allergie\u00ebn door blootstelling aan gelnagels. Dit wijst op een groeiend volksgezondheidsprobleem dat meer aandacht en preventieve maatregelen vereist.\n\nClassify the following issue into one of these categories. Choose the most appropriate category based on the descriptions provided.\n\nIssue to classify:\n- **Acrylnagelproducten kunnen ademhalingsproblemen veroorzaken door chemische dampen.**\n\nOnly output the exact category name that best matches this issue. Your output should only be one of the following values: Allergische reacties en gezondheidsrisico\u2019s door acrylaten, Impact van acrylatenallergie op medische behandelingen, Verhoogd risico door DIY-nagelkits en onjuiste toepassing, Gezondheidsrisico\u2019s voor nagelstylisten door beroepsmatige blootstelling, Onvoldoende regelgeving en waarschuwingen over gezondheidsrisico\u2019s, Schade aan natuurlijke nagels door langdurig gebruik van nagelproducten, Toename van acrylatenallergie\u00ebn, ook bij kinderen. Nothing else.\n                ",
+            "timestamp": "2025-03-02T15:52:41.674406"
+        },
+        {
+            "role": "assistant",
+            "content": "Gezondheidsrisico\u2019s voor nagelstylisten door beroepsmatige blootstelling",
+            "timestamp": "2025-03-02T15:52:42.501942"
+        }
+    ]
+}

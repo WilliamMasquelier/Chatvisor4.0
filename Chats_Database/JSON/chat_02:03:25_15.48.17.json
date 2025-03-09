@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.48.17",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:48:17.596885"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# ['Zolang niets afrot, blijf ik het doen'](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DJ0-XVD1-DYRY-X2Y6-00000-00&context=1519360)\n## Het Parool\n### Raounak Khaddari, Malika Sevil\n### November 30, 2024\n\n1. The number of nail salons in Amsterdam has tripled over the past decade, indicating a significant rise in the popularity of gel nails, despite growing health concerns associated with their use, particularly regarding acrylate allergies.\n\n2. Medical professionals are increasingly warning about the long-term health risks of gel nails, including the potential for lifelong allergies and complications that can affect future medical procedures, such as joint replacements.\n\n3. There is a notable increase in the prevalence of acrylate allergies among the general population, with recent data showing that 4% of patients tested at allergy centers are allergic to acrylates, up from 2% a decade ago.\n\n4. The trend of using gel nails spans across various demographics, with individuals from different age groups and backgrounds embracing the aesthetic appeal of gel nails, despite awareness of the associated health risks.\n\n5. Experts express concern over the normalization of beauty rituals that prioritize appearance over health, suggesting that societal beauty standards contribute to the continued use of potentially harmful products like gel nails, with little accountability from manufacturers.",
+            "timestamp": "2025-03-02T15:48:17.596903"
+        },
+        {
+            "role": "assistant",
+            "content": "# ['Zolang niets afrot, blijf ik het doen'](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DJ0-XVD1-DYRY-X2Y6-00000-00&context=1519360)\n## Het Parool\n### Raounak Khaddari, Malika Sevil\n### November 30, 2024\n\n1. Het aantal nagelsalons in Amsterdam is in het afgelopen decennium verdrievoudigd, wat wijst op een aanzienlijke stijging van de populariteit van gelnagels, ondanks de groeiende gezondheidszorgen die gepaard gaan met het gebruik ervan, met name met betrekking tot acrylaatallergie\u00ebn.\n\n2. Medische professionals waarschuwen steeds vaker voor de langetermijngezondheidsrisico's van gelnagels, waaronder de mogelijkheid van levenslange allergie\u00ebn en complicaties die toekomstige medische procedures, zoals gewrichtsvervangingen, kunnen be\u00efnvloeden.\n\n3. Er is een opmerkelijke toename van de prevalentie van acrylaatallergie\u00ebn onder de algemene bevolking, met recente gegevens die aantonen dat 4% van de pati\u00ebnten die in allergiecentra zijn getest, allergisch is voor acrylaten, vergeleken met 2% een decennium geleden.\n\n4. De trend van het gebruik van gelnagels strekt zich uit over verschillende demografische groepen, waarbij individuen uit verschillende leeftijdsgroepen en achtergronden de esthetische aantrekkingskracht van gelnagels omarmen, ondanks het bewustzijn van de bijbehorende gezondheidsrisico's.\n\n5. Experts uiten bezorgdheid over de normalisering van schoonheidsrituelen die uiterlijk boven gezondheid prioriteren, en suggereren dat maatschappelijke schoonheidsnormen bijdragen aan het voortdurende gebruik van potentieel schadelijke producten zoals gelnagels, met weinig verantwoordelijkheid van fabrikanten.",
+            "timestamp": "2025-03-02T15:48:22.049333"
+        }
+    ]
+}

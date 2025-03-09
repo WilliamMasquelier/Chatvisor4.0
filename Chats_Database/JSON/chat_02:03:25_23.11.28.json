@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.11.28",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:11:28.052267"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the tranlsation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Orsted's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nIf the input is \"None\", return \"None\".\n\nInput quotes:\n| Kathy Hochul | Governor of New York | \u201cIt\u2019s great to be first, we want to make sure we\u2019re not the last. That\u2019s why we\u2019re showing other states how it can be done, why we're moving forward, on to other projects.\u201d |\n| Mads Nipper | CEO of \u00d8rsted | \"The opening a major milestone that proves large offshore wind farms can be built, both in the United States and in other countries with little or no offshore wind energy currently.\" |\n| David Hardy | Group Executive Vice President and CEO Americas at \u00d8rsted | \"After years of planning and development, 2024 is a year of action\u2014 building projects that will deliver sizeable amounts of clean power to the grid.\" |\n        ",
+            "timestamp": "2025-03-02T23:11:28.052288"
+        },
+        {
+            "role": "assistant",
+            "content": "| Kathy Hochul | Governor of New York | \u201cIt\u2019s great to be first, we want to make sure we\u2019re not the last. That\u2019s why we\u2019re showing other states how it can be done, why we're moving forward, on to other projects.\u201d | N.A. |\n| Mads Nipper | CEO of \u00d8rsted | \"The opening a major milestone that proves large offshore wind farms can be built, both in the United States and in other countries with little or no offshore wind energy currently.\" | N.A. |\n| David Hardy | Group Executive Vice President and CEO Americas at \u00d8rsted | \"After years of planning and development, 2024 is a year of action\u2014 building projects that will deliver sizeable amounts of clean power to the grid.\" | N.A. |",
+            "timestamp": "2025-03-02T23:11:30.789348"
+        }
+    ]
+}

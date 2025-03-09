@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.19.03",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:19:03.376581"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with extracting stakeholder information and direct quotes from a given news article related to Orsted. Your output should be in the form of a markdown table without column titles or any additional information. Each table row should contain:\n1. The name of a real person who has expressed a quote in the provided article\n2. His role or relation with regards to Orsted.\n3. Their original quote about Orsted exactly as it appears in the article, without any modifications or translations\n\nGuidelines:\n- Include only real people: Exclude organizations, companies, or any other non-person entities\n- Direct connection: Ensure that each selected individual is explicitly connected to Orsted or explicitly express his opinion on Orsted.\n- Only include those whose statements are directly about Orsted\n- Exclude individuals whose comments are not directly relevant to Orsted or are too general\n- Pertinent stakeholders only: Only include the most relevant individuals\n- Do not include stakeholders who are not directly associated with Orsted\n\nOutput Format Requirements:\n- Each line must contain exactly two columns separated by \"|\" symbols\n- Column 1: Stakeholder's name\n- Column 2: Stakeholder's role or link to Orsted. If not described in the article, try to interpret its role. If it is not straightforward to interpret, mention \"Not mentioned\".\n- Column 3: Original quote in its original language\n\nExample of correct formatting:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision de Orsted est tr\u00e8s importante.\" |\n| John Smith | Orsted's CEO |\"We need to review Orsted's proposal carefully.\" |\n| Hans Weber | Financial analyst | \"Die Strategie von Orsted ist \u00fcberzeugend.\" |\n\nIf no relevant individuals with quotes are found, return \"None.\"\n\nArticle:\nPage 1 of 1\nUn projet \u00e9olien en mer de 7,15 milliards d'euros annonc\u00e9 par Varsovie\nUn projet \u00e9olien en mer de 7,15 milliards d'euros annonc\u00e9 par Varsovie\nLefigaro.fr\njeudi 30 janvier 2025 07:59 PM GMT\nCopyright 2025 SOCIETE DU FIGARO Tous droits r\u00e9serv\u00e9s\nLength: 230 words\nBody\n    \nLe Premier ministre polonais Donald Tusk a annonc\u00e9 jeudi le lancement d'un projet de ferme \u00e9olienne en mer \nBaltique, confi\u00e9 au danois \u00d8rsted et au polonais PGE, pour 30 milliards de zlotys (7,15 milliards d'euros). Le projet \nappel\u00e9 Baltica 2, qui va s'\u00e9tendre sur environ 190 km2 en mer, \u00e0 environ 40 km de la c\u00f4te polonaise, entre les villes \nd'Ustka et Choczew. Il sera compos\u00e9 de 170 turbines mues par le vent, d'une puissance globale attendue de 1,5 \nGigaWatt. Le lancement du chantier est pr\u00e9vu cette ann\u00e9e et la mise en service de la ferme devra avoir lieu en \n2027. Le projet sera r\u00e9alis\u00e9 par un consortium des groupes danois \u00d8rsted et polonais PGE, dans lequel les deux \nacteurs d\u00e9tiennent la moiti\u00e9 des parts, selon un communiqu\u00e9 de PGE.\n\u00d8rsted financera sa part d'investissements avec ses fonds propres alors que le groupe polonais s'appuie sur des \ncr\u00e9dits locaux et internationaux, dont des emprunts aupr\u00e8s des banques europ\u00e9ennes BEI et BERD, mais aussi sur \nles fonds europ\u00e9ens du plan de relance post-Covid, selon ce communiqu\u00e9. \u00ab30 milliards de zlotys et 1,5 gigaWatt, \nces chiffres sont vraiment impressionnants\u00bb, s'est f\u00e9licit\u00e9 Donald Tusk lors d'un point de presse. Selon lui, \u00abcet \n\u00e9norme investissement n'est qu'une partie d'un projet gigantesque dans le secteur de l'\u00e9nergie polonais\u00bb, en vertu \nduquel la capacit\u00e9 offshore nationale devrait atteindre 18 GW, d'ici 2040. \nLoad-Date: January 30, 2025\nEnd of Document\n        ",
+            "timestamp": "2025-03-02T23:19:03.376599"
+        },
+        {
+            "role": "assistant",
+            "content": "| Donald Tusk | Premier ministre polonais | \"30 milliards de zlotys et 1,5 gigaWatt, ces chiffres sont vraiment impressionnants.\" |",
+            "timestamp": "2025-03-02T23:19:04.773787"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_15.47.20",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 5000,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a professional translator specializing in Dutch translations. \nYour task is to translate content while maintaining the original formatting, including markdown syntax, \ntitles, headings, and any special characters.",
+            "timestamp": "2025-03-02T15:47:20.713435"
+        },
+        {
+            "role": "user",
+            "content": "Translate the following text into Dutch, maintaining all formatting exactly as is.\nHere is the content to translate:\n# [Gelnagellak: met deze nagellakken zit je goed volgens de beauty-expert](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DYC-W9R3-RSJB-542F-00000-00&context=1519360)\n## Margriet\n### Karen van Ede\n### November 06, 2024\n\n1. The article highlights concerns regarding acrylates in gel nail products, specifically mentioning HEMA and Di-HEMA, which are known to cause allergic reactions in some individuals, leading to symptoms such as redness, sensitivity, and even respiratory issues.\n\n2. Pink Gellac has proactively reformulated its products to eliminate HEMA and Di-HEMA, with over 95% of its range now HEMA-free and vegan, aiming for complete HEMA-free status by the end of 2024. This move is in response to growing consumer awareness and concerns about acrylate allergies.\n\n3. The article warns consumers to be cautious of non-European brands that may contain high concentrations of HEMA, which are often linked to allergic reactions. It emphasizes the importance of verifying that products used in salons comply with European regulations.\n\n4. Alternatives to gel nail products are discussed, including eco-friendly nail polishes that are \"10-free,\" meaning they contain fewer harmful chemicals. Brands like Kure Bazaar and Nailberry are highlighted as viable options for consumers seeking safer nail care products.",
+            "timestamp": "2025-03-02T15:47:20.713472"
+        },
+        {
+            "role": "assistant",
+            "content": "# [Gelnagellak: met deze nagellakken zit je goed volgens de beauty-expert](https://advance.lexis.com/api/document?collection=news&id=urn:contentItem:6DYC-W9R3-RSJB-542F-00000-00&context=1519360)\n## Margriet\n### Karen van Ede\n### November 06, 2024\n\n1. Het artikel benadrukt zorgen over acrylaten in gelnagelproducten, met specifieke vermelding van HEMA en Di-HEMA, die bekend staan om allergische reacties bij sommige individuen, wat leidt tot symptomen zoals roodheid, gevoeligheid en zelfs ademhalingsproblemen.\n\n2. Pink Gellac heeft proactief zijn producten herformuleerd om HEMA en Di-HEMA te elimineren, met meer dan 95% van zijn assortiment nu HEMA-vrij en veganistisch, met als doel volledig HEMA-vrij te zijn tegen het einde van 2024. Deze stap is een reactie op de groeiende consumentenbewustheid en zorgen over acrylaatallergie\u00ebn.\n\n3. Het artikel waarschuwt consumenten om voorzichtig te zijn met niet-Europese merken die hoge concentraties HEMA kunnen bevatten, die vaak worden gekoppeld aan allergische reacties. Het benadrukt het belang van het verifi\u00ebren dat producten die in salons worden gebruikt voldoen aan de Europese regelgeving.\n\n4. Alternatieven voor gelnagelproducten worden besproken, waaronder milieuvriendelijke nagellakken die \"10-free\" zijn, wat betekent dat ze minder schadelijke chemicali\u00ebn bevatten. Merken zoals Kure Bazaar en Nailberry worden uitgelicht als levensvatbare opties voor consumenten die op zoek zijn naar veiligere nagelverzorgingsproducten.",
+            "timestamp": "2025-03-02T15:47:25.068190"
+        }
+    ]
+}

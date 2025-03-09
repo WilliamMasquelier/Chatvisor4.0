@@ -1,0 +1,24 @@
+{
+    "id": "02:03:25_23.21.00",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-02T23:21:00.732567"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with extracting stakeholder information and direct quotes from a given news article related to Orsted. Your output should be in the form of a markdown table without column titles or any additional information. Each table row should contain:\n1. The name of a real person who has expressed a quote in the provided article\n2. His role or relation with regards to Orsted.\n3. Their original quote about Orsted exactly as it appears in the article, without any modifications or translations\n\nGuidelines:\n- Include only real people: Exclude organizations, companies, or any other non-person entities\n- Direct connection: Ensure that each selected individual is explicitly connected to Orsted or explicitly express his opinion on Orsted.\n- Only include those whose statements are directly about Orsted\n- Exclude individuals whose comments are not directly relevant to Orsted or are too general\n- Pertinent stakeholders only: Only include the most relevant individuals\n- Do not include stakeholders who are not directly associated with Orsted\n\nOutput Format Requirements:\n- Each line must contain exactly two columns separated by \"|\" symbols\n- Column 1: Stakeholder's name\n- Column 2: Stakeholder's role or link to Orsted. If not described in the article, try to interpret its role. If it is not straightforward to interpret, mention \"Not mentioned\".\n- Column 3: Original quote in its original language\n\nExample of correct formatting:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision de Orsted est tr\u00e8s importante.\" |\n| John Smith | Orsted's CEO |\"We need to review Orsted's proposal carefully.\" |\n| Hans Weber | Financial analyst | \"Die Strategie von Orsted ist \u00fcberzeugend.\" |\n\nIf no relevant individuals with quotes are found, return \"None.\"\n\nArticle:\nPage 1 of 2\n\u00d8rsted shares rebound on plan to slash capex\n\u00d8rsted shares rebound on plan to slash capex\n \nProactive Investors (UK)\nFebruary 6, 2025 Thursday 10:12 AM EST\nCopyright 2025 Proactive UK Ltd All Rights Reserved\nLength: 234 words\nByline: Oliver Haill\nBody\n\u00d8rsted shares were blown almost 5% higher on Thursday after the offshore wind turbine maker announced a 25% \ncut in investment after markets closed last night.\nThe Danish giant released an updated business plan where it cut planned capital expenditure for the next five years \nin order to avoid raising funds from a share issue, with its shares having more than halved over the past two years \nto return to levels last seen in early 2017.\nIt cut its 2026 underlying profit guidance 3% and reiterated the reinstatement of dividend is still expected next year.\nCEO Rasmus Errboe said investment was being reduced via \"a stricter, more value-focused approach to capital \nallocation... to ensure a stronger balance sheet, supporting a solid investment grade rating, and to ensure that we \nonly invest our capital in the most financially attractive opportunities\".\nThe cutting back will not affect the work on the 9 gigawatts of renewable projects that \u00d8rsted is currently \nconstructing, the company stressed, with a construction portfolio that has 'line of sight' to an expansion of \nrenewable capacity from 18 GW to more than 27 GW.\nErrboe said the \"number one priority throughout the next three years\" will be to deliver on this committed offshore \nwind construction programme.\n\"The market remains challenging, but delivering on this programme will solidify our position as the undisputed \nglobal leader in offshore wind.\"\nPage 2 of 2\n\u00d8rsted shares rebound on plan to slash capex\nLoad-Date: February 6, 2025\nEnd of Document\n        ",
+            "timestamp": "2025-03-02T23:21:00.732591"
+        },
+        {
+            "role": "assistant",
+            "content": "| Rasmus Errboe | CEO of \u00d8rsted | \"The market remains challenging, but delivering on this programme will solidify our position as the undisputed global leader in offshore wind.\" |",
+            "timestamp": "2025-03-02T23:21:01.922460"
+        }
+    ]
+}
