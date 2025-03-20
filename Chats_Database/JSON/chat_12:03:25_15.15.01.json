@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.15.01",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1500,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-12T15:15:01.376262"
+        },
+        {
+            "role": "user",
+            "content": "\nExtract a list of all organizations, companies, institutions, and other entities mentioned in this article. You must exclude all real people from your output, it should only list organizations, companies, institutions, excluding people.\n\nRequirements:\n1. Include all types of organizations (companies, government agencies, NGOs, etc.)\n2. Only include entities that are actually discussed, not just mentioned in passing\n3. Remove any duplicates\n4. Include full official names where possible.\n5. Do not include broad terms like \"government\" or \"companies\" without specific identifiers or a specific organisation.\n6. DO NOT include people.\n7. Limit the Organisation name (**ENTITY**) to a maximum of 3 to 4 words.\n8. The entity name MUST NOT be empty - if you can't identify the name, skip that entity entirely.\n\nArticle:\nTitle: A quarter of companies ban the use of AI\nContent: Page 1 of 1\nA quarter of companies ban the use of AI\nA quarter of companies ban the use of AI\nThe Daily Telegraph (Australia)\nFebruary 13, 2024 Tuesday\nTelegraph Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: NEWS; Pg. 3\nLength: 246 words\nByline: Jared Lynch\nBody\nMore than a quarter of Australian companies have banned artificial intelligence tools in the workplace, citing privacy \nconcerns, including the potential for corporate secrets to be shared with competitors, according to a new study.\nCommunications technology titan Cisco surveyed more than 2600 security and privacy professionals across 12 \ncountries, which revealed businesses were unplugging the much-hyped technology - for now.\nThis is despite bigger businesses beginning to reap productivity gains from the much-hyped technology, which the \nAlbanese government expects will inject up to $600bn a year into the national economy by 2030. But, Cisco ANZ's \ndirector of cybersecurity Corien Vermaak said trust remains a big hurdle in fuelling AI's widespread adoption. Ms \nVermaak said 27 per cent of Australian companies surveyed had banned the use of generative AI applications due \nto privacy risks.\nOf that number, 77 per cent were worried corporate information entered into AI apps could be shared publicly or \nwith competitors, while 69 per cent were concerned it could hurt their legal or intellectual property rights.\n\"As we do security awareness training, we now need to focus on that narrative on AI as well,\" Ms Vermaak said.\nThe Productivity Commission also found low levels of public trust in AI technologies could pose a \"significant \nbarrier\" to uptake. But, it said governments should act as \"exemplars\" to demonstrate the safe and effective uses of \nAI in service delivery.\nLoad-Date: February 12, 2024\nEnd of Document\n\nOutput Format:\n**ENTITY**: [Organization Name]\n**TYPE**: [Type of organization - e.g., Company, Government Agency, NGO, etc.]\n**DESCRIPTION**: [Brief description of how the entity is discussed in the article]\n\nExample Output:\n**ENTITY**: Tesla, Inc.\n**TYPE**: Company\n**DESCRIPTION**: Main subject of article, discussing Q4 earnings report\n\nOnly include entities that are meaningful to the article's content. Return \"None\" in case there are no relevant organisations to be mentioned.\nYou must exclude Cisco from your output.\n",
+            "timestamp": "2025-03-12T15:15:01.376276"
+        },
+        {
+            "role": "assistant",
+            "content": "**ENTITY**: Albanese Government  \n**TYPE**: Government Agency  \n**DESCRIPTION**: Discussed in relation to expectations of AI's economic impact on Australia.\n\n**ENTITY**: Productivity Commission  \n**TYPE**: Government Agency  \n**DESCRIPTION**: Mentioned regarding findings on public trust in AI technologies and their impact on adoption.  \n\nNone",
+            "timestamp": "2025-03-12T15:15:09.152840"
+        }
+    ]
+}

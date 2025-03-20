@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.43.54",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:43:55.011623"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the translation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nExample input:\n| [Person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,eyc..)] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] |\n\nExample output:\n| [person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,etc..)] | [Translated Quote] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] | N.A. |\n\nIf the input is \"None\", return \"None\". if the original quote is not in English, make sure it is translated. Add \"N.A\" if the quote is already in English.\n\nInput quotes:\n| Andrew Forrest | Executive Chairman of Fortescue | \"It's been a lesson in humility.\" |\n| Andrew Forrest | Executive Chairman of Fortescue | \"That water pipeline failure, so that was a shock to the organisation.\" |\n| Andrew Forrest | Executive Chairman of Fortescue | \"But going after them is a puerile practice as they are too small. Sending people broke is not our speed.\" |\n| Andrew Forrest | Executive Chairman of Fortescue | \"We deliver operations at the lowest cost in the world. And it's who we are. We don't pretend to be like others.\" |\n| Andrew Forrest | Executive Chairman of Fortescue | \"That's not how we roll. The board approves projects on exactly the information it has, and it got to $US3.2 billion well after it had been approved and it was being built. And that's when you have the come-to-judgment day.\" |\n| Dino Otranto | Chief of Fortescue Metals | \"At the moment, they aren't seeing as high a premium as they had hoped.\" |\n        ",
+            "timestamp": "2025-03-10T19:43:55.011644"
+        },
+        {
+            "role": "assistant",
+            "content": "| Andrew Forrest | Executive Chairman of Fortescue | \"It's been a lesson in humility.\" | N.A. |\n| Andrew Forrest | Executive Chairman of Fortescue | \"That water pipeline failure, so that was a shock to the organisation.\" | N.A. |\n| Andrew Forrest | Executive Chairman of Fortescue | \"But going after them is a puerile practice as they are too small. Sending people broke is not our speed.\" | N.A. |\n| Andrew Forrest | Executive Chairman of Fortescue | \"We deliver operations at the lowest cost in the world. And it's who we are. We don't pretend to be like others.\" | N.A. |\n| Andrew Forrest | Executive Chairman of Fortescue | \"That's not how we roll. The board approves projects on exactly the information it has, and it got to $US3.2 billion well after it had been approved and it was being built. And that's when you have the come-to-judgment day.\" | N.A. |\n| Dino Otranto | Chief of Fortescue Metals | \"At the moment, they aren't seeing as high a premium as they had hoped.\" | N.A. |",
+            "timestamp": "2025-03-10T19:44:03.255581"
+        }
+    ]
+}

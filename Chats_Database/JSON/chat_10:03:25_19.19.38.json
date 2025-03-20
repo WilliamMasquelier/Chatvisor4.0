@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.19.38",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:19:38.345373"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Andrew Forrest | Mining executive, CEO of Fortescue | \"We are producing green hydrogen as we speak.\" | N.A. |\n| Andrew Forrest | Mining executive, CEO of Fortescue | \"It's a political mischief to say that the world's major green hydrogen champion is turning away from green hydrogen - it's completely untrue.\" | N.A. |\n| Andrew Forrest | Mining executive, CEO of Fortescue | \"For us to say we're giving up on green hydrogen, as some people have tried to twist it, is just like saying you're giving up on your kids [and] giving up on the world.\" | N.A. |\n| Andrew Forrest | Mining executive, CEO of Fortescue | \"If the electricity cost is high, then we can't make hydrogen cheaply enough to compete with fossil fuels.\" | N.A. |\n| Chris Bowen | Climate Change and Energy Minister | \"Green hydrogen will be one of the best ways Australia can decarbonise domestic heavy emitters and help develop robust low-carbon manufacturing.\" | N.A. |\n| Ted O'Brien | Opposition energy spokesman | \"Fortescue's move had 'blown a gaping hole' in Labor's renewables-focused energy plans.\" | N.A. |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Fortescue.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Fortescue or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-10T19:19:38.345396"
+        },
+        {
+            "role": "assistant",
+            "content": "| Andrew Forrest | Mining executive, CEO of Fortescue | \"We are producing green hydrogen as we speak.\" | N.A. |\n| Andrew Forrest | Mining executive, CEO of Fortescue | \"It's a political mischief to say that the world's major green hydrogen champion is turning away from green hydrogen - it's completely untrue.\" | N.A. |\n| Andrew Forrest | Mining executive, CEO of Fortescue | \"For us to say we're giving up on green hydrogen, as some people have tried to twist it, is just like saying you're giving up on your kids [and] giving up on the world.\" | N.A. |\n| Andrew Forrest | Mining executive, CEO of Fortescue | \"If the electricity cost is high, then we can't make hydrogen cheaply enough to compete with fossil fuels.\" | N.A. |\n| Chris Bowen | Climate Change and Energy Minister | \"Green hydrogen will be one of the best ways Australia can decarbonise domestic heavy emitters and help develop robust low-carbon manufacturing.\" | N.A. |\n| Ted O'Brien | Opposition energy spokesman | \"Fortescue's move had 'blown a gaping hole' in Labor's renewables-focused energy plans.\" | N.A. |",
+            "timestamp": "2025-03-10T19:19:46.397022"
+        }
+    ]
+}

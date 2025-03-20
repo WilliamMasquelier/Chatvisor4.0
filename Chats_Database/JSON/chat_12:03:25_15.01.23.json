@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.01.23",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to decide whether or not a given article is relevant to a given company. If the given company is not a specific entity but a topic or industry, make sure that the article's content is directly and closely related to that topic or industry. The company or topic to be considered is the following: Cisco.",
+            "timestamp": "2025-03-12T15:01:23.080091"
+        },
+        {
+            "role": "user",
+            "content": "\nYou will be provided with a news media article and a company, topic or industry name. Here is the company or industry of interest: Cisco. It operates in the digital communications technology, with a prefered focus on the Australia market. You should only respond to the following question: Is the article relevant? Your output should only be: \"Yes\" or \"No\". Nothing else. Your task is to determine if the article is sufficiently relevant to Cisco based on the following criterion:\n\nCentrality: The article is considered relevant if Cisco is central to the article's content, meaning the focus of the conversation revolves around Cisco.\n\nIf Cisco is only mentioned a few times without being a primary focus, the article should be considered not relevant.\n\nHere is the article you will be evaluating: Page 1 of 1\nAustralia: CISCO TECHNOLOGY Receives Patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR \nMULTI-REGION SDWAN'\nAustralia: CISCO TECHNOLOGY Receives Patent for 'DISTRIBUTED \nROUTING CONTROLLERS FOR MULTI-REGION SDWAN'\nAustralian Government News\nMay 10, 2024 Friday 2:33 AM  EST\nCopyright 2024 HT Media Limited. All Rights Reserved\nLength: 121 words\nDateline: Australia \nBody\nAustralia, May 10 -- CISCO TECHNOLOGY Inc., United States of America, has filed an application (2022325217) \non Aug. 10, 2022, for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN.'\nThe patent is effective from Aug. 10, 2022, till Aug. 10, 2042. Inventor(s): Samir THORIA, Vivek AGARWAL, Satish \nKumar MAHADEVAN, Laxmikantha Reddy PONNURU, Jean-Marc BAROZET and Hamzah KARDAME Application \nStatus: Accepted Acceptance Date: April 23 Paid to Date: Aug. 10, 2026 The original document can be viewed at: \nhttp://pericles.ipaustralia.gov.au/ols/auspat/applicationDetails.do?applicationNo=2022325217 For any query with \nrespect to this article or any other content requirement, please contact Editor at contentservices@htdigital.in\nLoad-Date: May 9, 2024\nEnd of Document\n\nYour response should be based on whether the article meets the relevance criteria for Cisco.\nYour output should only be \"Yes\" or \"No\", based on your assessment. Nothing else.\n            ",
+            "timestamp": "2025-03-12T15:01:23.080114"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes",
+            "timestamp": "2025-03-12T15:01:24.368801"
+        }
+    ]
+}

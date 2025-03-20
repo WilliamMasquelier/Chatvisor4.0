@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.10.04",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:10:04.325712"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the translation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nExample input:\n| [Person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,eyc..)] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] |\n\nExample output:\n| [person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,etc..)] | [Translated Quote] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] | N.A. |\n\nIf the input is \"None\", return \"None\". if the original quote is not in English, make sure it is translated. Add \"N.A\" if the quote is already in English.\n\nInput quotes:\n| Michael Woodley | Chief Executive, Yindjibarndi Ngurra Aboriginal Corporation | \"We want the EPA to report on the adequacy of the implementation conditions of the Solomon Iron Ore Project and their capacity to avoid, minimise, rehabilitate and offset its impacts to our land, water, and cultural heritage.\" |\n| Michael Woodley | Chief Executive, Yindjibarndi Ngurra Aboriginal Corporation | \"The current conditions are much weaker than those in recent ministerial approvals for similar projects, including Fortescue\u2019s own Eliwana mine and the Sanjiv Ridge project on Nyamal Country.\" |\n| Michael Woodley | Chief Executive, Yindjibarndi Ngurra Aboriginal Corporation | \"The mine\u2019s lack of environmental and cultural management has been causing his community ongoing hurt and distress.\" |\n        ",
+            "timestamp": "2025-03-10T19:10:04.325733"
+        },
+        {
+            "role": "assistant",
+            "content": "| Michael Woodley | Chief Executive, Yindjibarndi Ngurra Aboriginal Corporation | \"We want the EPA to report on the adequacy of the implementation conditions of the Solomon Iron Ore Project and their capacity to avoid, minimise, rehabilitate and offset its impacts to our land, water, and cultural heritage.\" | N.A. |\n| Michael Woodley | Chief Executive, Yindjibarndi Ngurra Aboriginal Corporation | \"The current conditions are much weaker than those in recent ministerial approvals for similar projects, including Fortescue\u2019s own Eliwana mine and the Sanjiv Ridge project on Nyamal Country.\" | N.A. |\n| Michael Woodley | Chief Executive, Yindjibarndi Ngurra Aboriginal Corporation | \"The mine\u2019s lack of environmental and cultural management has been causing his community ongoing hurt and distress.\" | N.A. |",
+            "timestamp": "2025-03-10T19:10:07.534946"
+        }
+    ]
+}

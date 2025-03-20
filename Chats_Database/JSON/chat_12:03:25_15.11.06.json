@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.11.06",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to categorize a given news media article about Cisco into one of the predefined categories. Your output should consist solely of the category name, chosen from the provided list of categories.",
+            "timestamp": "2025-03-12T15:11:06.836364"
+        },
+        {
+            "role": "user",
+            "content": "\nPlease categorize the following article about Cisco into one of the predefined categories. \nYour output should only consist of the category name.\nHere is the article content: Page 1 of 2\nCompanies ban AI over privacy concerns: Cisco\nCompanies ban AI over privacy concerns: Cisco\nThe Australian\nFebruary 13, 2024 Tuesday\nAustralian Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: BUSINESS; Pg. 18\nLength: 471 words\nByline: JARED LYNCH\nBody\nMore than a quarter of Australian companies have banned artificial intelligence tools in the workplace, citing privacy \nconcerns - including the potential for corporate secrets to be shared with competitors, according to a new study.\nCommunications technology titan Cisco surveyed more than 2600 security and privacy professionals across 12 \ncountries, finding businesses were unplugging the much-hyped technology - for now.\nThis is despite bigger businesses beginning to reap productivity gains from AI, which the Albanese government \nexpects to inject up to $600bn a year into the national economy by 2030.\nCisco ANZ director of cybersecurity Corien Vermaak said trust remained a big obstacle to AI's widespread \nadoption.\nMs Vermaak said 27 per cent of Australian companies surveyed had banned the use of generative AI applications \nover privacy risks. Of them, 77 per cent were worried corporate information entered into AI apps could be shared \npublicly or with competitors, while 69 per cent were concerned it could hurt their legal or intellectual property rights.\n\"As we do security awareness training, we now need to focus on that narrative on AI as well,\" Ms Vermaak said.\n\"Where organisations are unsure, they've banned it. What that tells me is a lot of organisations are looking to put \nthe controls in place, are looking to educate, message and see where they can improve their processes before \nallowing it. My sense would be over the next few years we will see that decreasing.\" While bigger companies have \nsigned up to tailored enterprise AI products, like Microsoft's Copilot, which has guardrails built in to protect \ncorporate data, others do not have a clear strategy, with employees at some using publicly available AI platforms, \nsometimes without their managers' knowledge.\n\"One of the examples in our framework is that when an employee uses any generative AI tool, they have to actually \ndisclose it. And, and that's a really important thing, because it changes the perception of the receiver of that work,\" \nMs Vermaak said.\nPage 2 of 2\nCompanies ban AI over privacy concerns: Cisco\n\"There's two things that organisations and companies need to start with. That is the education part, which is \ncritically important. And then putting in policies and frameworks to put guardrails up for when is it OK to use it.\n\" 'Can I use ChatGPT? Yes, you can use it for private things on your work device, but you can't use it for any work-\nrelated matters' if that is what the company's risk acceptance is.\" The Productivity Commission also found that low \nlevels of public trust in AI technologies could pose a \"significant barrier\" to uptake. But, it said governments should \nact as \"exemplars\" to demonstrate the safe and effective uses of AI in service delivery. Collete Stallbaumer, general \nmanager of Microsoft 365, said it was still early days and companies were moving at different speeds.\nLoad-Date: February 12, 2024\nEnd of Document\n\nBased on the content of the article, choose the most appropriate category from the following list: ['Technological Innovations & Patents', 'Artificial Intelligence (AI) & Market Adoption', 'Corporate Restructuring & Workforce Changes', 'Strategic Partnerships & Acquisitions', 'Market Challenges & Competitive Landscape', 'Workplace Trends & Employee Insights', 'Financial & Stock Market Performance']\nYour output should solely be the name of the category chosen and nothing else.\n            ",
+            "timestamp": "2025-03-12T15:11:06.836414"
+        },
+        {
+            "role": "assistant",
+            "content": "Artificial Intelligence (AI) & Market Adoption",
+            "timestamp": "2025-03-12T15:11:08.014450"
+        }
+    ]
+}

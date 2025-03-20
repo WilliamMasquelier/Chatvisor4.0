@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.03.12",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:03:12.954111"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the translation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nExample input:\n| [Person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,eyc..)] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] |\n\nExample output:\n| [person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,etc..)] | [Translated Quote] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] | N.A. |\n\nIf the input is \"None\", return \"None\". if the original quote is not in English, make sure it is translated. Add \"N.A\" if the quote is already in English.\n\nInput quotes:\n| Andrew Forrest | Executive Chairman of Fortescue | \"Andrew is the type of person who goes into areas and tries to execute new methods of doing things.\" |\n| Jason Kururangi | Portfolio Manager with Milford Asset Management | \"For some investors over the last couple of years, it's just gone into the too-hard basket.\" |\n| Jon Mills | Morningstar Mining Equity Analyst | \"Fortescue has been really benefiting recently from a higher iron ore price and lower discounts on it products.\" |\n| Sean Sequeira | Chief Investment Officer at Australian Eagle Asset Management | \"When Andrew first put Fortescue together, it all seemed quite haphazard.\" |\n        ",
+            "timestamp": "2025-03-10T19:03:12.954130"
+        },
+        {
+            "role": "assistant",
+            "content": "| Andrew Forrest | Executive Chairman of Fortescue | \"Andrew is the type of person who goes into areas and tries to execute new methods of doing things.\" | N.A. |\n| Jason Kururangi | Portfolio Manager with Milford Asset Management | \"For some investors over the last couple of years, it's just gone into the too-hard basket.\" | N.A. |\n| Jon Mills | Morningstar Mining Equity Analyst | \"Fortescue has been really benefiting recently from a higher iron ore price and lower discounts on it products.\" | N.A. |\n| Sean Sequeira | Chief Investment Officer at Australian Eagle Asset Management | \"When Andrew first put Fortescue together, it all seemed quite haphazard.\" | N.A. |",
+            "timestamp": "2025-03-10T19:03:16.289491"
+        }
+    ]
+}

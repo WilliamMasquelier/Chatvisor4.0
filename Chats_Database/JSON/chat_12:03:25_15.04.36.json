@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.04.36",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to categorize a given news media article about Shell into one of the predefined categories. Your output should consist solely of the category name, chosen from the provided list of categories.",
+            "timestamp": "2025-03-12T15:04:36.243124"
+        },
+        {
+            "role": "user",
+            "content": "\nPlease categorize the following article about Shell into one of the predefined categories. \nYour output should only consist of the category name.\nHere is the article content: Page 1 of 1\nArrow to expand Qld gas project\nArrow to expand Qld gas project\nThe Daily Telegraph (Australia)\nAugust 13, 2024 Tuesday\nTelegraph Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: BUSINESS; Pg. 40\nLength: 222 words\nByline: Colin Packham\nBody\nShell and PetroChina's joint venture Arrow Energy will -expand its Surat Gas Project as it moves to capitalise on -\ngrowing demand.\nThe expansion will be welcomed by Australia's energy industry, which is struggling to lock-in supplies along the \ncountry's east coast.\nArrow said it would expand the project in Queensland's Western Downs to produce 4000PJ of gas for the domestic \nmarket. The joint venture said 450 new gas -production wells, a new field compression station, 27km pipeline and \nroad and infrastructure upgrades over two phases would be developed.\nArrow chief executive Zhengxin Peng said first gas from the expansion has been targeted for 2026.\n\"At a time when more gas is needed for homes, businesses and industries, the SGP North development will solidify \nArrow's position as a major producer of natural gas on the east coast,\" he said.\nThe gas from the project would flow to the Shell-operated QCLNG liquefied natural gas facility on Curtis Island, \nnear Gladstone, to meet long-term contracts and supply domestic customers, the joint venture partners said.\nShell integrated gas and upstream director Zoe Yujnovich said the expansion underscored its commitment to the \ndomestic market. \"QCLNG marked its 1000th cargo at the end of last year, reflecting its significance as a gas \nsupplier for Australia and the region,' she said.\nLoad-Date: August 12, 2024\nEnd of Document\n\nBased on the content of the article, choose the most appropriate category from the following list: ['Financial Performance and Market Strategy', 'Regulatory and Legal Challenges', 'Energy Transition and Climate Commitments', 'Liquefied Natural Gas (LNG) and Gas Market Developments', 'Oil and Gas Project Investments and Operations', 'Geopolitical and Security Risks', 'Government Relations and Policy Advocacy']\nYour output should solely be the name of the category chosen and nothing else.\n            ",
+            "timestamp": "2025-03-12T15:04:36.243152"
+        },
+        {
+            "role": "assistant",
+            "content": "Oil and Gas Project Investments and Operations",
+            "timestamp": "2025-03-12T15:04:40.053173"
+        }
+    ]
+}

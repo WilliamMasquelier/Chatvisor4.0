@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_18.58.23",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T18:58:23.560960"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Daniel Hynes | ANZ senior commodity strategist | \"I think the stimulus will help stem the fall that we've seen in property investment and construction activity, but that won't ignite another rally like we've seen in the past.\" | N.A. |\n| Daniel Hynes | ANZ senior commodity strategist | \"They're now talking about peak steel demand and that did instigate a bit of a review of their projects.\" | N.A. |\n| Daniel Hynes | ANZ senior commodity strategist | \"We actually have the iron ore market, remaining relatively tight over the next two to three years. On the back of that lower growth in supply.\" | N.A. |\n| Roger Cook | WA Premier | \"The nickel industry supported almost 10,000 jobs, and generated sales of more than $5 billion last financial year.\" | N.A. |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Fortescue.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Fortescue or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-10T18:58:23.560978"
+        },
+        {
+            "role": "assistant",
+            "content": "| Daniel Hynes | ANZ senior commodity strategist | \"I think the stimulus will help stem the fall that we've seen in property investment and construction activity, but that won't ignite another rally like we've seen in the past.\" | N.A. |\n| Daniel Hynes | ANZ senior commodity strategist | \"They're now talking about peak steel demand and that did instigate a bit of a review of their projects.\" | N.A. |\n| Daniel Hynes | ANZ senior commodity strategist | \"We actually have the iron ore market, remaining relatively tight over the next two to three years. On the back of that lower growth in supply.\" | N.A. |\n| Roger Cook | WA Premier | \"The nickel industry supported almost 10,000 jobs, and generated sales of more than $5 billion last financial year.\" | N.A. |",
+            "timestamp": "2025-03-10T18:58:27.010366"
+        }
+    ]
+}

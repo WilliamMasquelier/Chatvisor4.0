@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.02.25",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:02:25.748726"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Jeff Nelson | Independent witness | \"I am not an advocate for one person ... I really went to great lengths to get information from both sides of this divide.\" | N.A. |\n| Brahmananda Dharmananda SC | Fortescue's silk | \"The sample group of 21 people cannot statistically reflect ... the whole of the people - given there around 1200 of them?\" | N.A. |\n| Dr. Nelson | Clinical psychologist | \"When you're talking in the clinical space, it's a different argument. You will find many good single case study reports from which generalisations are made.\" | N.A. |\n| Dr. Nelson | Clinical psychologist | \"But on re-examination by Ms Jowett, he said Fortescue mining the land without permission compounded the foundational trauma of the group's relocation.\" | N.A. |\n| Michael Woodley | Leader of YAC | \"A fair-minded listener could reasonably conclude from listening to this audio recording that your evidence is not impartial, but that you've become an advocate for the cause of the party that's retained you.\" | N.A. |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Fortescue.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Fortescue or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-10T19:02:25.748747"
+        },
+        {
+            "role": "assistant",
+            "content": "| Jeff Nelson | Independent witness | \"I am not an advocate for one person ... I really went to great lengths to get information from both sides of this divide.\" | N.A. |\n| Dr. Nelson | Clinical psychologist | \"But on re-examination by Ms Jowett, he said Fortescue mining the land without permission compounded the foundational trauma of the group's relocation.\" | N.A. |\n| Michael Woodley | Leader of YAC | \"A fair-minded listener could reasonably conclude from listening to this audio recording that your evidence is not impartial, but that you've become an advocate for the cause of the party that's retained you.\" | N.A. |",
+            "timestamp": "2025-03-10T19:02:28.809124"
+        }
+    ]
+}

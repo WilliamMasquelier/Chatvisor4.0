@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_14.46.53",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to decide whether or not a given article is relevant to a given company. If the given company is not a specific entity but a topic or industry, make sure that the article's content is directly and closely related to that topic or industry. The company or topic to be considered is the following: Shell.",
+            "timestamp": "2025-03-12T14:46:53.161096"
+        },
+        {
+            "role": "user",
+            "content": "\nYou will be provided with a news media article and a company, topic or industry name. Here is the company or industry of interest: Shell. It operates in the oil and gas, with a prefered focus on the Australia market. You should only respond to the following question: Is the article relevant? Your output should only be: \"Yes\" or \"No\". Nothing else. Your task is to determine if the article is sufficiently relevant to Shell based on the following criterion:\n\nCentrality: The article is considered relevant if Shell is central to the article's content, meaning the focus of the conversation revolves around Shell.\n\nIf Shell is only mentioned a few times without being a primary focus, the article should be considered not relevant.\n\nHere is the article you will be evaluating: Page 1 of 1\nShell takes wind out of sales\nShell takes wind out of sales\nThe Daily Telegraph (Australia)\nMay 30, 2024 Thursday\nTelegraph Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: BUSINESS; Pg. 24\nLength: 264 words\nByline: Colin Packham\nBody\nShell, one of the world's largest energy companies, quietly shelved plans to develop an offshore wind project in \nVictoria, as it implements its strategy to invest in less capital-intensive, mature forms of electricity generation.\nThe decision is the first known example of a developer walking away from Victoria's offshore wind plans, and it will \ndo little to quell concern about the prospect of an industry that Victoria has earmarked as playing a critical role in its \ntransition away from fossil fuels.\nVictoria in 2022 set a target of generating about 20 per cent of its energy needs from offshore wind within a decade. \nThe target then doubles to 4GW by 2035 and 9GW by 2040. In all, Victoria sees potential for 13GW of offshore \nwind capacity by 2050, five times the current renewable generation in Victoria.\nThe target drew a plethora of some of the world's largest global energy companies to apply for a so-called feasibility \nlicence, and Shell was understood to have been informed late last year that it was in line to secure a permit should \nit overcome a boundary dispute.\nUntangling the dispute was seen as inevitable, but Shell determined it would not proceed with its initial application \nas it delivers on chief executive's Wael Sawan's commitment to be \"ruthless\" in focusing on financial performance. \nA Shell spokeswoman confirmed the decision, but said: \"Australia's abundant offshore wind resources have strong \npotential to help Australia achieve net zero emissions by 2050 and Shell (has) confidence in the establishment of a \nsustainable Australian offshore wind industry.\"\nLoad-Date: May 29, 2024\nEnd of Document\n\nYour response should be based on whether the article meets the relevance criteria for Shell.\nYour output should only be \"Yes\" or \"No\", based on your assessment. Nothing else.\n            ",
+            "timestamp": "2025-03-12T14:46:53.161122"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes",
+            "timestamp": "2025-03-12T14:46:54.312664"
+        }
+    ]
+}

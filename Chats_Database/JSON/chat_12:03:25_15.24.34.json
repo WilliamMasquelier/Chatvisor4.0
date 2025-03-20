@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.24.34",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-12T15:24:34.413734"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with extracting stakeholder information and direct quotes from a given news article related to Cisco. Your output should be in the form of a markdown table without column titles or any additional information. Each table row should contain:\n1. The name of a real person who has expressed a quote in the provided article\n2. His role or relation with regards to Cisco.\n3. Their original quote about Cisco exactly as it appears in the article, without any modifications or translations\n\nGuidelines:\n- Include only real people: Exclude organizations, companies, or any other non-person entities\n- Direct connection: Ensure that each selected individual is explicitly connected to Cisco or explicitly express his opinion on Cisco.\n- Only include those whose statements are directly about Cisco\n- Exclude individuals whose comments are not directly relevant to Cisco or are too general\n- Pertinent stakeholders only: Only include the most relevant individuals\n- Do not include stakeholders who are not directly associated with Cisco\n\nOutput Format Requirements:\n- Each line must contain exactly two columns separated by \"|\" symbols\n- Column 1: Stakeholder's name\n- Column 2: Stakeholder's role or link to Cisco. If not described in the article, try to interpret its role. If it is not straightforward to interpret, mention \"Not mentioned\".\n- Column 3: Original quote in its original language\n\nExample of correct formatting:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision de Cisco est tr\u00e8s importante.\" |\n| John Smith | Cisco's CEO |\"We need to review Cisco's proposal carefully.\" |\n| Hans Weber | Financial analyst | \"Die Strategie von Cisco ist \u00fcberzeugend.\" |\n\nIf no relevant individuals with quotes are found, return \"None.\"\n\nArticle:\nPage 1 of 1\nAI is 'falling short of the mark'\nAI is 'falling short of the mark'\nThe Daily Telegraph (Australia)\nNovember 30, 2024 Saturday\nTelegraph Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: WBUSINESS; Pg. 63\nLength: 274 words\nByline: Joseph Lam\nBody\nAustralian companies have been given an artificial intelligence reality check, with 58 per cent that have invested in \nartificial programs and applications saying the technology has fallen short of expectations.\nMeanwhile, about 70 per cent of investors have pulled out of active deals due to AI consideration. Cisco's AI \nreadiness index, undertaken for the second time this year, found 38 per cent of companies had allocated between \n10 to 30 per cent of their IT budget to AI, despite many not seeing a return on the investment.\nThe firm's Australian chief technology officer Carl Solder said Cisco's index found about half of the companies \nsurveyed found assistance from AI with processes and operations did not hit the mark. About 44 per cent saw either \nno or not enough improvement in the technology automating their business.\n\"I think the reality is that they started to appreciate the work and effort involved in getting all those building blocks \nsquared away, and the strategy, infrastructure data governance, talent and culture,\" he said. \"The reality is that \nmaybe there is a bit more work that we have to do to be fully prepared.\" Cisco's Index measured the responses of \n3660 senior business leaders from companies with 500 or more staff across 14 countries in the Asia Pacific. The \nindex found just 4 per cent of the country was in a position to leverage AI, a figure that dropped from 5 per cent the \nprevious year. Mr Solder said 92 per cent of companies were facing increasing pressure to adopt AI despite much \nof it not showing a return on investment over the past year. Most of that pressure came from company chief \nexecutives and boards.\nLoad-Date: November 30, 2024\nEnd of Document\n        ",
+            "timestamp": "2025-03-12T15:24:34.413761"
+        },
+        {
+            "role": "assistant",
+            "content": "| Carl Solder | Australian Chief Technology Officer at Cisco | \"I think the reality is that they started to appreciate the work and effort involved in getting all those building blocks squared away, and the strategy, infrastructure data governance, talent and culture.\" |",
+            "timestamp": "2025-03-12T15:24:37.282642"
+        }
+    ]
+}

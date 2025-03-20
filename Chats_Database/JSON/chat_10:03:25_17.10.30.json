@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_17.10.30",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to decide whether or not a given article is relevant to a given company. If the given company is not a specific entity but a topic or industry, make sure that the article's content is directly and closely related to that topic or industry. The company or topic to be considered is the following: Ramelius Resources.",
+            "timestamp": "2025-03-10T17:10:30.169805"
+        },
+        {
+            "role": "user",
+            "content": "\nYou will be provided with a news media article and a company, topic or industry name. Here is the company or industry of interest: Ramelius Resources. It operates in the Mining, exploration and drilling of gold, with a prefered focus on the Australia market. You should only respond to the following question: Is the article relevant? Your output should only be: \"Yes\" or \"No\". Nothing else. Your task is to determine if the article is sufficiently relevant to Ramelius Resources based on the following criterion:\n\nCentrality: The article is considered relevant if Ramelius Resources is central to the article's content, meaning the focus of the conversation revolves around Ramelius Resources.\n\nIf Ramelius Resources is only mentioned a few times without being a primary focus, the article should be considered not relevant.\n\nHere is the article you will be evaluating: Page 1 of 2\nLatin Resources spins out Lachlan Fold Belt projects into Maverick Minerals IPO\nLatin Resources spins out Lachlan Fold Belt projects into Maverick Minerals \nIPO\n \nProactive Investors (AU)\nJanuary 30, 2024 Tuesday 12:35 AM EST\nCopyright 2024 Proactive UK Ltd All Rights Reserved\nLength: 309 words\nByline: Phoebe Shields\nBody\nLatin Resources Ltd (ASX:LRS, OTC:LRSRF) has continued the process of streamlining its operations with the \ndivestment of non-core assets, having now launched a live initial public offer (IPO) for a spin-out of its Lachlan Fold \nBelt (LFB) projects in New South Wales to Maverick Minerals Limited, which will trade under the ticker MVM.\nThe LRS board says it is pleased with the Maverick transaction and is \"excited for continued exploration work in \nNSW and their other projects\".\nLatin shareholders will retain an interest in the LFB projects through the company's 16.28% holding in Maverick and \nwill also be eligible to participate in a priority offer of up to 12.5 million shares priced at $0.20 per share for a \nmaximum of $2.5 million raised.\nPriority Maverick IPO offer\nMaverick Minerals is poised to list to the ASX with a portfolio of exploration projects in three highly prospective \nmining and exploration districts:\n  \n\u2022 Gold, nickel and lithium in Western Australia;  \n\u2022 Copper and gold in New South Wales; and  \n\u2022 Lithium in Ontario, Canada\nThe 12.5 million shares in the priority offer account for half of the total IPO shares on offer for Maverick.\nPage 2 of 2\nLatin Resources spins out Lachlan Fold Belt projects into Maverick Minerals IPO\nThe offer will close at 5:00 pm WAST on February 9, 2024, or earlier at the company directors' discretion.\nMaverick is led by experienced CEO and company director Sam Smith.\nSmith is a mining engineer with more than 15 years of experience in the resources sector, having most recently \nserved as CEO and executive director of gold development company Breaker Resources Ltd.\nDuring that time the company sold its interest in the Manna lithium deposit to Global Lithium Resources for more \nthan $80 million in cash and merged its gold business with Ramelius Resources.\nMaverick intends to use funding from the IPO to carry out exploration on its projects for the first two years, targeting \nprecious and battery metals.\nLoad-Date: January 29, 2024\nEnd of Document\n\nYour response should be based on whether the article meets the relevance criteria for Ramelius Resources.\nYour output should only be \"Yes\" or \"No\", based on your assessment. Nothing else.\n            ",
+            "timestamp": "2025-03-10T17:10:30.169839"
+        },
+        {
+            "role": "assistant",
+            "content": "No",
+            "timestamp": "2025-03-10T17:10:31.835617"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.28.55",
+    "docs_paths": null,
+    "model_name": "chatgpt-4o-latest",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-12T15:28:55.809232"
+        },
+        {
+            "role": "user",
+            "content": "\nBased on the following context, determine a clear, concise role or position for the stakeholder Charlie Kronick in relation to Shell.\n\nPreviously identified role(s): Senior climate advisor at Greenpeace UK\n\nContext:\nQuote: \"On a day where climate leaders are negotiating in Abu Dhabi how to help the world's poorest meet the skyrocketing costs of climate loss and damage, Shell continues to bank billions from flogging the fuels that are driving the crisis.\"\nContext: In their role as Senior climate advisor at Greenpeace UK, they stated: \"On a day where climate leaders are negotiating in Abu Dhabi how to help the world's poorest meet the skyrocketing costs of climate loss and damage, Shell continues to bank billions from flogging the fuels that are driving the crisis.\"\n\nRequirements:\n1. Provide a single role or position in 1-5 words maximum\n2. Be specific and relevant to Shell or its industry\n3. Focus on the stakeholder's professional capacity or expertise\n4. Use concise, clear terminology\n5. Include the entity or organisation the stakeholder is associated with, if the information is available.\n\nExample good responses:\n- \"Chief Technology Officer of [Institution NAME]\"\n- \"Industry Analyst at [Entity NAME]\"\n- \"Solar Energy Expert\"\n- \"Investment Director for [Entity NAME]\"\n- \"Consumer\"\n\nExample bad responses:\n- \"A highly experienced professional in the field\" (too long)\n- \"Person involved in operations\" (too vague)\n- \"Stakeholder\" (too generic)\n\nOutput only the role/position, nothing else.\n",
+            "timestamp": "2025-03-12T15:28:55.809256"
+        },
+        {
+            "role": "assistant",
+            "content": "Senior Climate Advisor, Greenpeace UK",
+            "timestamp": "2025-03-12T15:28:56.695514"
+        }
+    ]
+}

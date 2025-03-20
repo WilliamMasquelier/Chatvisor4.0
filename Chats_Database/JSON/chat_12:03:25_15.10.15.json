@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.10.15",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to categorize a given news media article about Cisco into one of the predefined categories. Your output should consist solely of the category name, chosen from the provided list of categories.",
+            "timestamp": "2025-03-12T15:10:15.511909"
+        },
+        {
+            "role": "user",
+            "content": "\nPlease categorize the following article about Cisco into one of the predefined categories. \nYour output should only consist of the category name.\nHere is the article content: Page 1 of 1\nAI is 'falling short of the mark'\nAI is 'falling short of the mark'\nThe Daily Telegraph (Australia)\nNovember 30, 2024 Saturday\nTelegraph Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: WBUSINESS; Pg. 63\nLength: 274 words\nByline: Joseph Lam\nBody\nAustralian companies have been given an artificial intelligence reality check, with 58 per cent that have invested in \nartificial programs and applications saying the technology has fallen short of expectations.\nMeanwhile, about 70 per cent of investors have pulled out of active deals due to AI consideration. Cisco's AI \nreadiness index, undertaken for the second time this year, found 38 per cent of companies had allocated between \n10 to 30 per cent of their IT budget to AI, despite many not seeing a return on the investment.\nThe firm's Australian chief technology officer Carl Solder said Cisco's index found about half of the companies \nsurveyed found assistance from AI with processes and operations did not hit the mark. About 44 per cent saw either \nno or not enough improvement in the technology automating their business.\n\"I think the reality is that they started to appreciate the work and effort involved in getting all those building blocks \nsquared away, and the strategy, infrastructure data governance, talent and culture,\" he said. \"The reality is that \nmaybe there is a bit more work that we have to do to be fully prepared.\" Cisco's Index measured the responses of \n3660 senior business leaders from companies with 500 or more staff across 14 countries in the Asia Pacific. The \nindex found just 4 per cent of the country was in a position to leverage AI, a figure that dropped from 5 per cent the \nprevious year. Mr Solder said 92 per cent of companies were facing increasing pressure to adopt AI despite much \nof it not showing a return on investment over the past year. Most of that pressure came from company chief \nexecutives and boards.\nLoad-Date: November 30, 2024\nEnd of Document\n\nBased on the content of the article, choose the most appropriate category from the following list: ['Technological Innovation and Patents', 'Artificial Intelligence and Market Adoption', 'Privacy, Security, and Trust in Technology', 'Corporate Strategy and Business Restructuring', 'Market Position and Industry Partnerships', 'Global Market Challenges and Geopolitical Factors', 'Financial Performance and Investment Considerations']\nYour output should solely be the name of the category chosen and nothing else.\n            ",
+            "timestamp": "2025-03-12T15:10:15.511943"
+        },
+        {
+            "role": "assistant",
+            "content": "Artificial Intelligence and Market Adoption",
+            "timestamp": "2025-03-12T15:10:16.498900"
+        }
+    ]
+}

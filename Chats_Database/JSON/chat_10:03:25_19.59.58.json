@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.59.58",
+    "docs_paths": null,
+    "model_name": "chatgpt-4o-latest",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:59:58.317768"
+        },
+        {
+            "role": "user",
+            "content": "\nBased on the following context, determine a clear, concise role or position for the stakeholder Tammy O'Connor in relation to Fortescue.\n\nPreviously identified role(s): Founder and Managing Director of King Kira Group, Founder of KingKira Group\n\nContext:\nQuote: \"Fortescue, through their Billion Opportunities program, has been instrumental in helping us grow as a business. I'm incredibly proud of how much we have grown and can now stand on our own with these major contracts.\"\nContext: In their role as Founder of KingKira Group, they stated: \"Fortescue, through their Billion Opportunities program, has been instrumental in helping us grow as a business. I'm incredibly proud of how much we have grown and can now stand on our own with these major contracts.\"\nQuote: \"With the support of NAB and Fortescue, we can secure more contracts, ensure sustainable growth and ultimately empower our community.\"\nContext: In their role as Founder and Managing Director of King Kira Group, they stated: \"With the support of NAB and Fortescue, we can secure more contracts, ensure sustainable growth and ultimately empower our community.\"\n\nRequirements:\n1. Provide a single role or position in 1-5 words maximum\n2. Be specific and relevant to Fortescue or its industry\n3. Focus on the stakeholder's professional capacity or expertise\n4. Use concise, clear terminology\n5. Include the entity or organisation the stakeholder is associated with, if the information is available.\n\nExample good responses:\n- \"Chief Technology Officer of [Institution NAME]\"\n- \"Industry Analyst at [Entity NAME]\"\n- \"Solar Energy Expert\"\n- \"Investment Director for [Entity NAME]\"\n- \"Consumer\"\n\nExample bad responses:\n- \"A highly experienced professional in the field\" (too long)\n- \"Person involved in operations\" (too vague)\n- \"Stakeholder\" (too generic)\n\nOutput only the role/position, nothing else.\n",
+            "timestamp": "2025-03-10T19:59:58.317795"
+        },
+        {
+            "role": "assistant",
+            "content": "Founder and Managing Director, KingKira Group",
+            "timestamp": "2025-03-10T19:59:59.300696"
+        }
+    ]
+}

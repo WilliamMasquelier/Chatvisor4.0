@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.35.57",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:35:57.679354"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the translation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nExample input:\n| [Person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,eyc..)] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] |\n\nExample output:\n| [person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,etc..)] | [Translated Quote] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] | N.A. |\n\nIf the input is \"None\", return \"None\". if the original quote is not in English, make sure it is translated. Add \"N.A\" if the quote is already in English.\n\nInput quotes:\n| Noel Pearson | Board member of Fortescue Metals Group | \"Noel Pearson is a prominent Indigenous lawyer, academic and activist who founded the Cape York Partnership in 2004.\" |\n| Sharna Collard | Chief Executive of Kooya | \"Kooya has stood the test of time, and now, looking at our customer base, we have a series of blue-chip clients, including Fortescue, BHP, Telstra and Chevron.\" |\n| Sharna Collard | Chief Executive of Kooya | \"The key to the success between Kooya and Fortescue has been incremental growth.\" |\n| Sharna Collard | Chief Executive of Kooya | \"There is a strong synergy and alignment between First Nation businesses and our commitment to decarbonisation.\" |\n| Sharna Collard | Chief Executive of Kooya | \"A crucial aspect of Kooya's offering is its focus on the Aboriginal social impact.\" |\n        ",
+            "timestamp": "2025-03-10T19:35:57.679374"
+        },
+        {
+            "role": "assistant",
+            "content": "| Noel Pearson | Board member of Fortescue Metals Group | \"Noel Pearson is a prominent Indigenous lawyer, academic and activist who founded the Cape York Partnership in 2004.\" | N.A. |\n| Sharna Collard | Chief Executive of Kooya | \"Kooya has stood the test of time, and now, looking at our customer base, we have a series of blue-chip clients, including Fortescue, BHP, Telstra and Chevron.\" | N.A. |\n| Sharna Collard | Chief Executive of Kooya | \"The key to the success between Kooya and Fortescue has been incremental growth.\" | N.A. |\n| Sharna Collard | Chief Executive of Kooya | \"There is a strong synergy and alignment between First Nation businesses and our commitment to decarbonisation.\" | N.A. |\n| Sharna Collard | Chief Executive of Kooya | \"A crucial aspect of Kooya's offering is its focus on the Aboriginal social impact.\" | N.A. |",
+            "timestamp": "2025-03-10T19:36:00.910773"
+        }
+    ]
+}

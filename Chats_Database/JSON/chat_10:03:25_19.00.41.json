@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.00.41",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:00:41.587789"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the translation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nExample input:\n| [Person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,eyc..)] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] |\n\nExample output:\n| [person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,etc..)] | [Translated Quote] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] | N.A. |\n\nIf the input is \"None\", return \"None\". if the original quote is not in English, make sure it is translated. Add \"N.A\" if the quote is already in English.\n\nInput quotes:\n| Mark Hutchinson | Fortescue Energy boss | \"We've been working very, very hard on it.\" |\n| Mark Hutchinson | Fortescue Energy boss | \"But it's tough based on the current power prices when we're looking at competing globally.\" |\n| Mark Hutchinson | Fortescue Energy boss | \"So we're working very closely with the Queensland government and federal government to figure out a way to make it happen because it's a bit of a litmus test for the rest of the hydrogen industry in Australia, to be honest.\" |\n| Mark Hutchinson | Fortescue Energy boss | \"We're very keen to get it up.\" |\n| Mark Hutchinson | Fortescue Energy boss | \"If you look around the world where you can get cheap renewable power, competitive renewable power is below $US30 a megawatt hour.\" |\n| Mark Hutchinson | Fortescue Energy boss | \"That should really be the target and particularly when you're looking at really what will be a global market to supply green ammonia, green hydrogen.\" |\n| Mark Hutchinson | Fortescue Energy boss | \"Some people come in and think they [have to] fix it. That's just not Fortescue. We don't need to be fixed.\" |\n        ",
+            "timestamp": "2025-03-10T19:00:41.587820"
+        },
+        {
+            "role": "assistant",
+            "content": "| Mark Hutchinson | Fortescue Energy boss | \"We've been working very, very hard on it.\" | N.A. |\n| Mark Hutchinson | Fortescue Energy boss | \"But it's tough based on the current power prices when we're looking at competing globally.\" | N.A. |\n| Mark Hutchinson | Fortescue Energy boss | \"So we're working very closely with the Queensland government and federal government to figure out a way to make it happen because it's a bit of a litmus test for the rest of the hydrogen industry in Australia, to be honest.\" | N.A. |\n| Mark Hutchinson | Fortescue Energy boss | \"We're very keen to get it up.\" | N.A. |\n| Mark Hutchinson | Fortescue Energy boss | \"If you look around the world where you can get cheap renewable power, competitive renewable power is below $US30 a megawatt hour.\" | N.A. |\n| Mark Hutchinson | Fortescue Energy boss | \"That should really be the target and particularly when you're looking at really what will be a global market to supply green ammonia, green hydrogen.\" | N.A. |\n| Mark Hutchinson | Fortescue Energy boss | \"Some people come in and think they [have to] fix it. That's just not Fortescue. We don't need to be fixed.\" | N.A. |",
+            "timestamp": "2025-03-10T19:00:46.865865"
+        }
+    ]
+}

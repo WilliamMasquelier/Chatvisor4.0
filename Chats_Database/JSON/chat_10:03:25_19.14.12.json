@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.14.12",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:14:12.417054"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Andrew Forrest | CEO of Fortescue | \"Being a first mover isn\u2019t easy, but as we learnt 21 years ago, risk is always worth the reward.\" | N.A. |\n| Andrew Forrest | CEO of Fortescue | \"Part of the reason Fortescue is the highest performing company on Australia\u2019s Stock Exchange is that we do things differently.\" | N.A. |\n| Andrew Forrest | CEO of Fortescue | \"We do not apologise for requesting people leave their corporate culture behind when they join us \u2026 nor will we apologise when we don\u2019t look like everyone else.\" | N.A. |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Fortescue.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Fortescue or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-10T19:14:12.417074"
+        },
+        {
+            "role": "assistant",
+            "content": "| Andrew Forrest | CEO of Fortescue | \"Being a first mover isn\u2019t easy, but as we learnt 21 years ago, risk is always worth the reward.\" | N.A. |\n| Andrew Forrest | CEO of Fortescue | \"Part of the reason Fortescue is the highest performing company on Australia\u2019s Stock Exchange is that we do things differently.\" | N.A. |\n| Andrew Forrest | CEO of Fortescue | \"We do not apologise for requesting people leave their corporate culture behind when they join us \u2026 nor will we apologise when we don\u2019t look like everyone else.\" | N.A. |",
+            "timestamp": "2025-03-10T19:14:16.675794"
+        }
+    ]
+}

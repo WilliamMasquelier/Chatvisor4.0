@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.12.14",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1500,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-12T15:12:14.629413"
+        },
+        {
+            "role": "user",
+            "content": "\nExtract a list of all real people mentioned in this article.\n\nRequirements:\n1. Include only real individuals, not fictional characters or generic references\n2. Only include people who are actually discussed, not just mentioned in passing\n3. Remove any duplicates\n4. Include full names where available\n5. Do not include the article's author\n6. Do not include generic references like \"employees\" or \"officials\" without specific names\n7. DO NOT include non-people entities like institutions, companies, NGOs, etc...\n8. The person name MUST NOT be empty - if you can't identify the name, skip that person entirely.\n\nArticle:\nTitle: Arrow to expand Qld gas project\nContent: Page 1 of 1\nArrow to expand Qld gas project\nArrow to expand Qld gas project\nThe Daily Telegraph (Australia)\nAugust 13, 2024 Tuesday\nTelegraph Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: BUSINESS; Pg. 40\nLength: 222 words\nByline: Colin Packham\nBody\nShell and PetroChina's joint venture Arrow Energy will -expand its Surat Gas Project as it moves to capitalise on -\ngrowing demand.\nThe expansion will be welcomed by Australia's energy industry, which is struggling to lock-in supplies along the \ncountry's east coast.\nArrow said it would expand the project in Queensland's Western Downs to produce 4000PJ of gas for the domestic \nmarket. The joint venture said 450 new gas -production wells, a new field compression station, 27km pipeline and \nroad and infrastructure upgrades over two phases would be developed.\nArrow chief executive Zhengxin Peng said first gas from the expansion has been targeted for 2026.\n\"At a time when more gas is needed for homes, businesses and industries, the SGP North development will solidify \nArrow's position as a major producer of natural gas on the east coast,\" he said.\nThe gas from the project would flow to the Shell-operated QCLNG liquefied natural gas facility on Curtis Island, \nnear Gladstone, to meet long-term contracts and supply domestic customers, the joint venture partners said.\nShell integrated gas and upstream director Zoe Yujnovich said the expansion underscored its commitment to the \ndomestic market. \"QCLNG marked its 1000th cargo at the end of last year, reflecting its significance as a gas \nsupplier for Australia and the region,' she said.\nLoad-Date: August 12, 2024\nEnd of Document\n\nOutput Format:\n**PERSON**: [Full Name]\n**ROLE**: [Person's role or position]\n**CONTEXT**: [Brief description of how the person is discussed in the article]\n\nExample Output:\n**PERSON**: Elon Musk\n**ROLE**: CEO of Tesla and SpaceX\n**CONTEXT**: Primary subject of article, discussing company strategy\n\nOnly include people who play a meaningful role in the article's content. Return \"None\" if no relevant people are mentioned.\nYou must exclude Shell from your output.\n",
+            "timestamp": "2025-03-12T15:12:14.629427"
+        },
+        {
+            "role": "assistant",
+            "content": "**PERSON**: Zhengxin Peng  \n**ROLE**: Chief Executive of Arrow Energy  \n**CONTEXT**: Discussed in relation to the expansion of the Surat Gas Project and the targeted timeline for first gas production.  \n\n**PERSON**: Zoe Yujnovich  \n**ROLE**: Integrated Gas and Upstream Director at Shell  \n**CONTEXT**: Mentioned regarding the expansion's significance and Shell's commitment to the domestic gas market.  \n\nNone",
+            "timestamp": "2025-03-12T15:12:17.027362"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_18.57.20",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 800,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T18:57:20.758390"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with extracting stakeholder information and direct quotes from a given news article related to Fortescue. Your output should be in the form of a markdown table without column titles or any additional information. Each table row should contain:\n1. The name of a real person who has expressed a quote in the provided article\n2. His role or relation with regards to Fortescue.\n3. Their original quote about Fortescue exactly as it appears in the article, without any modifications or translations\n\nGuidelines:\n- Include only real people: Exclude organizations, companies, or any other non-person entities\n- Direct connection: Ensure that each selected individual is explicitly connected to Fortescue or explicitly express his opinion on Fortescue.\n- Only include those whose statements are directly about Fortescue\n- Exclude individuals whose comments are not directly relevant to Fortescue or are too general\n- Pertinent stakeholders only: Only include the most relevant individuals\n- Do not include stakeholders who are not directly associated with Fortescue\n\nOutput Format Requirements:\n- Each line must contain exactly two columns separated by \"|\" symbols\n- Column 1: Stakeholder's name\n- Column 2: Stakeholder's role or link to Fortescue. If not described in the article, try to interpret its role. If it is not straightforward to interpret, mention \"Not mentioned\".\n- Column 3: Original quote in its original language\n\nExample of correct formatting:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision de Fortescue est tr\u00e8s importante.\" |\n| John Smith | Fortescue's CEO |\"We need to review Fortescue's proposal carefully.\" |\n| Hans Weber | Financial analyst | \"Die Strategie von Fortescue ist \u00fcberzeugend.\" |\n\nIf no relevant individuals with quotes are found, return \"None.\"\n\nArticle:\nPage 1 of 1\nGunner pulls pin on Fortescue Future\nGunner pulls pin on Fortescue Future\nNorthern Territory News (Australia)\nFebruary 2, 2024 Friday\nNTNews Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: NEWS; Pg. 15\nLength: 229 words\nByline: Fia Walsh\nBody\nFormer chief minister Michael Gunner has left Australian billionaire Andrew \"Twiggy\" Forrest's renewable energy \ncompany less than six months after being promoted to head up the company's national operations.\nMr Gunner joined Fortescue Future Industries in November 2022 to lead a new Northern Australia team, before \nmoving into an Australia West director role in April, overseeing work across Western Australia, South Australia and \nthe NT.\nIn August last year he was promoted again to Australian director, but on Thursday he announced his resignation \nfrom the company, saying that it was \"too difficult\" to manage the travel demands of the job with his young family.\n\"Some big personal news. I have made the decision to leave Fortescue,\" Mr Gunner said on Facebook.\n\"Working for Andrew and Fortescue was an incredible opportunity - a dynamic company with a bold green energy \nvision.\n\"I will always be a friend of the Fortescue family and an advocate for Fortescue and the path they are forging.\n\"After taking on the Australian director role in August it meant more travel away from Darwin and the family, which I \nfound too difficult.\n\"I'm taking a bit of time before deciding with the family what I do next and am now reporting for lunch box duty.\" A \nFortescue spokesman said: \"We respect Michael's decision, and his personal reasons for making it and wish him \nand his family well.\"\nLoad-Date: February 1, 2024\nEnd of Document\n        ",
+            "timestamp": "2025-03-10T18:57:20.758416"
+        },
+        {
+            "role": "assistant",
+            "content": "| Michael Gunner | Former Chief Minister and Australian Director at Fortescue | \"Working for Andrew and Fortescue was an incredible opportunity - a dynamic company with a bold green energy vision.\" |\n| Michael Gunner | Former Chief Minister and Australian Director at Fortescue | \"I will always be a friend of the Fortescue family and an advocate for Fortescue and the path they are forging.\" |\n| Fortescue spokesman | Not mentioned | \"We respect Michael's decision, and his personal reasons for making it and wish him and his family well.\" |",
+            "timestamp": "2025-03-10T18:57:23.505636"
+        }
+    ]
+}

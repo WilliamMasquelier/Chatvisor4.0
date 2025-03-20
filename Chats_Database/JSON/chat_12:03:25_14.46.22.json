@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_14.46.22",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to decide whether or not a given article is relevant to a given company. If the given company is not a specific entity but a topic or industry, make sure that the article's content is directly and closely related to that topic or industry. The company or topic to be considered is the following: Shell.",
+            "timestamp": "2025-03-12T14:46:22.886606"
+        },
+        {
+            "role": "user",
+            "content": "\nYou will be provided with a news media article and a company, topic or industry name. Here is the company or industry of interest: Shell. It operates in the oil and gas, with a prefered focus on the Australia market. You should only respond to the following question: Is the article relevant? Your output should only be: \"Yes\" or \"No\". Nothing else. Your task is to determine if the article is sufficiently relevant to Shell based on the following criterion:\n\nCentrality: The article is considered relevant if Shell is central to the article's content, meaning the focus of the conversation revolves around Shell.\n\nIf Shell is only mentioned a few times without being a primary focus, the article should be considered not relevant.\n\nHere is the article you will be evaluating: Page 1 of 2\nHEART OF THE NATION\nHEART OF THE NATION\nThe Australian\nJuly 27, 2024 Saturday\nWeekendAusMag Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: MAGAZINE; Pg. 7\nLength: 384 words\nByline: PHOTOGRAPHY ALEX COPPEL \u00e2\u20ac\u2021BY ROSS BILTON\nBody\nPort Phillip Bay It's a highlight of the year for diver Violeta Hristova: the mass aggregation of Giant Spider Crabs in \nthe shallows of Port Phillip Bay. Their cue is the full moon in June. That's when huge numbers of these native \ncrabs, which grow up to 70cm across their long, spidery legs, march into shallow water to moult en masse. Like all \ncrabs, they need to shed their old shell in order to grow, and while waiting for their new shell to harden - the soft-\nshell phase - they're vulnerable to being gobbled up predators such as rays, sharks and octopus. (Let's face it, we \nall love soft-shell crab.) Aggregating in this way offers safety in numbers: each crab has a slightly better chance of \nnot being eaten.\nWhere exactly in the bay they'll turn up around the June full moon is something that keeps divers guessing every \nyear. And where these crabs go afterwards is a mystery: -marine -scientists don't know whether they hang out in \nthe bay's deeper waters, or disperse throughout Bass Strait.\nHristova, 37, is pictured admiring last month's aggregation on the bay side of the Mornington Peninsula. \"There \nwere thousands of them, like a big red carpet,\" she says. She loves to observe the moulting process, in which each \ncrab does what she describes as \"a funny backwards shuffle\" out of its old shell over the course of an hour or so.\nBorn in Sarajevo, Hristova was five when the Bosnian War broke out. She and her family fled, arriving in Australia \nas refugees. These days she's a disability worker (\"It's very rewarding,\" she says) and also a musician, composing \nand performing under the name V Don Dada (the V's for Violeta, and \"Don Dada\" is Jamaican patois for boss, she -\nexplains; but mostly she just likes the cadence of it). She's been a -regular busker at Melbourne's Bourke Street \nMall for years. It's a 90-minute drive each way from her home in -Preston to the Mornington Peninsula, but she \ndoes the journey every weekend in order to dive at spots like Blairgowrie, Sorrento and Rosebud. \"It's what I live \nfor,\" she says. \"The ocean is my passion, my place of peace.\" The cold water is punishing in winter - even with a \n4mm wetty. But she's been saving up all those hard-earned busking dollars for a dream trip in a few months. \"In \nOctober I'm going diving with tiger sharks in the Maldives!\"\nLoad-Date: July 26, 2024\nPage 2 of 2\nHEART OF THE NATION\nEnd of Document\n\nYour response should be based on whether the article meets the relevance criteria for Shell.\nYour output should only be \"Yes\" or \"No\", based on your assessment. Nothing else.\n            ",
+            "timestamp": "2025-03-12T14:46:22.886638"
+        },
+        {
+            "role": "assistant",
+            "content": "No",
+            "timestamp": "2025-03-12T14:46:23.834001"
+        }
+    ]
+}

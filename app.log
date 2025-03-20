@@ -1,7 +1,9 @@
-2025-03-03 14:18:43,147 - asyncio - DEBUG - Using selector: KqueueSelector
-2025-03-03 14:18:43,148 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
-2025-03-03 14:18:43,148 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
-2025-03-03 14:18:43,150 - httpx - DEBUG - load_verify_locations cafile='/opt/miniconda3/envs/llm/lib/python3.12/site-packages/certifi/cacert.pem'
-2025-03-03 14:18:43,150 - httpx - DEBUG - load_verify_locations cafile='/opt/miniconda3/envs/llm/lib/python3.12/site-packages/certifi/cacert.pem'
-2025-03-03 14:18:43,173 - httpcore.connection - DEBUG - connect_tcp.started host='api.gradio.app' port=443 local_address=None timeout=3 socket_options=None
-2025-03-03 14:18:43,173 - httpcore.connection - DEBUG - connect_tcp.started host='checkip.amazonaws.com' port=443 local_address=None timeout=3 socket_options=None
+2025-03-12 14:57:11,773 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-12 14:57:11,775 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-12 14:57:11,778 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-12 14:57:11,778 - httpx - DEBUG - load_verify_locations cafile='/opt/miniconda3/envs/llm/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-12 14:57:11,780 - httpx - DEBUG - load_verify_locations cafile='/opt/miniconda3/envs/llm/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-12 14:57:11,801 - httpcore.connection - DEBUG - connect_tcp.started host='checkip.amazonaws.com' port=443 local_address=None timeout=3 socket_options=None
+2025-03-12 14:57:11,801 - httpcore.connection - DEBUG - connect_tcp.started host='api.gradio.app' port=443 local_address=None timeout=3 socket_options=None
+2025-03-12 14:57:11,848 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x147cd6f90>
+2025-03-12 14:57:11,848 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x147cd3950> server_hostname='api.gradio.app' timeout=3

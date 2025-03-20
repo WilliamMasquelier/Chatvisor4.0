@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.16.10",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1500,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-12T15:16:10.710271"
+        },
+        {
+            "role": "user",
+            "content": "\nExtract a list of all real people mentioned in this article.\n\nRequirements:\n1. Include only real individuals, not fictional characters or generic references\n2. Only include people who are actually discussed, not just mentioned in passing\n3. Remove any duplicates\n4. Include full names where available\n5. Do not include the article's author\n6. Do not include generic references like \"employees\" or \"officials\" without specific names\n7. DO NOT include non-people entities like institutions, companies, NGOs, etc...\n8. The person name MUST NOT be empty - if you can't identify the name, skip that person entirely.\n\nArticle:\nTitle: Australia: CISCO TECHNOLOGY Receives Patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN'\nContent: Page 1 of 1\nAustralia: CISCO TECHNOLOGY Receives Patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR \nMULTI-REGION SDWAN'\nAustralia: CISCO TECHNOLOGY Receives Patent for 'DISTRIBUTED \nROUTING CONTROLLERS FOR MULTI-REGION SDWAN'\nAustralian Government News\nMay 10, 2024 Friday 2:33 AM  EST\nCopyright 2024 HT Media Limited. All Rights Reserved\nLength: 121 words\nDateline: Australia \nBody\nAustralia, May 10 -- CISCO TECHNOLOGY Inc., United States of America, has filed an application (2022325217) \non Aug. 10, 2022, for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN.'\nThe patent is effective from Aug. 10, 2022, till Aug. 10, 2042. Inventor(s): Samir THORIA, Vivek AGARWAL, Satish \nKumar MAHADEVAN, Laxmikantha Reddy PONNURU, Jean-Marc BAROZET and Hamzah KARDAME Application \nStatus: Accepted Acceptance Date: April 23 Paid to Date: Aug. 10, 2026 The original document can be viewed at: \nhttp://pericles.ipaustralia.gov.au/ols/auspat/applicationDetails.do?applicationNo=2022325217 For any query with \nrespect to this article or any other content requirement, please contact Editor at contentservices@htdigital.in\nLoad-Date: May 9, 2024\nEnd of Document\n\nOutput Format:\n**PERSON**: [Full Name]\n**ROLE**: [Person's role or position]\n**CONTEXT**: [Brief description of how the person is discussed in the article]\n\nExample Output:\n**PERSON**: Elon Musk\n**ROLE**: CEO of Tesla and SpaceX\n**CONTEXT**: Primary subject of article, discussing company strategy\n\nOnly include people who play a meaningful role in the article's content. Return \"None\" if no relevant people are mentioned.\nYou must exclude Cisco from your output.\n",
+            "timestamp": "2025-03-12T15:16:10.710284"
+        },
+        {
+            "role": "assistant",
+            "content": "**PERSON**: Samir Thoria  \n**ROLE**: Inventor  \n**CONTEXT**: Listed as one of the inventors of the patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN'.\n\n**PERSON**: Vivek Agarwal  \n**ROLE**: Inventor  \n**CONTEXT**: Listed as one of the inventors of the patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN'.\n\n**PERSON**: Satish Kumar Mahadevan  \n**ROLE**: Inventor  \n**CONTEXT**: Listed as one of the inventors of the patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN'.\n\n**PERSON**: Laxmikantha Reddy Ponnuru  \n**ROLE**: Inventor  \n**CONTEXT**: Listed as one of the inventors of the patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN'.\n\n**PERSON**: Jean-Marc Barozet  \n**ROLE**: Inventor  \n**CONTEXT**: Listed as one of the inventors of the patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN'.\n\n**PERSON**: Hamzah Kardame  \n**ROLE**: Inventor  \n**CONTEXT**: Listed as one of the inventors of the patent for 'DISTRIBUTED ROUTING CONTROLLERS FOR MULTI-REGION SDWAN'.",
+            "timestamp": "2025-03-12T15:16:15.718789"
+        }
+    ]
+}

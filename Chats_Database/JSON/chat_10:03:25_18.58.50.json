@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_18.58.50",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T18:58:50.866926"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with adding English translations to a set of stakeholder quotes. For each quote:\n- If the quote is in English, add \"N.A.\" as the translation\n- If the quote is in any other language, provide an accurate English translation\n\nInput format is a markdown table with stakeholder names and quotes.\nOutput should be a markdown table with three columns: name, original quote, and translation.\n\nIMPORTANT RULES:\n- Never translate English quotes to English - use \"N.A.\" instead.\n- Only and always translate non-English quotes.\n- If the original quote, in the third column of the md table is not in english, translate it and add the translation in the 4th column, as described below, but that is only when the quote is not in English.\n- Keep original quotes exactly as they are.\n- Maintain the markdown table format, without including any horizontal divider lines\n\nExample input:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" |\n\nExample output:\n| Pierre Dupont | Consumer | \"Cette d\u00e9cision est importante.\" | \"This decision is important.\" |\n| John Smith | Fortescue's corporate lawyer | \"We need to review this carefully.\" | N.A. |\n\nExample input:\n| [Person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,eyc..)] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] |\n\nExample output:\n| [person Name 1] | Person Role 1 | [Original Quote in another language (e.g. Dutch, French, German, Spanish,etc..)] | [Translated Quote] |\n| [person Name 2] | Person Role 2 | [Original Quote in English] | N.A. |\n\nIf the input is \"None\", return \"None\". if the original quote is not in English, make sure it is translated. Add \"N.A\" if the quote is already in English.\n\nInput quotes:\n| Andrew \"Twiggy\" Forrest | Fortescue Group's founder | \"Fortescue's performance in the first half of FY24 has been excellent, with the team achieving our second highest first-half shipments while maintaining our strong focus on safety and keeping our costs low.\" |\n| Mark Hutchinson | Chief Executive of Fortescue's energy division | \"We have a strong pipeline of projects to come, and we will continue to show the same financial discipline that Fortescue has shown for 20 years.\" |\n| Dino Otranto | Metals Chief Executive at Fortescue | \"Fortescue\u2019s performance in the first half of FY24 has been excellent, with the team achieving our second highest first-half shipments while maintaining our strong focus on safety and keeping our costs low.\" |\n| Sean Williams | Analyst at Moody's Investors Service | \"Fortescue's solid financial profile sets the company in a good position given its investment spending will likely remain elevated in the coming years.\" |\n| Lachlan Shaw | Analyst at UBS | \"This is not unusual seasonally, but we will need to monitor for disruptions over coming months.\" |\n        ",
+            "timestamp": "2025-03-10T18:58:50.866952"
+        },
+        {
+            "role": "assistant",
+            "content": "| Andrew \"Twiggy\" Forrest | Fortescue Group's founder | \"Fortescue's performance in the first half of FY24 has been excellent, with the team achieving our second highest first-half shipments while maintaining our strong focus on safety and keeping our costs low.\" | N.A. |\n| Mark Hutchinson | Chief Executive of Fortescue's energy division | \"We have a strong pipeline of projects to come, and we will continue to show the same financial discipline that Fortescue has shown for 20 years.\" | N.A. |\n| Dino Otranto | Metals Chief Executive at Fortescue | \"Fortescue\u2019s performance in the first half of FY24 has been excellent, with the team achieving our second highest first-half shipments while maintaining our strong focus on safety and keeping our costs low.\" | N.A. |\n| Sean Williams | Analyst at Moody's Investors Service | \"Fortescue's solid financial profile sets the company in a good position given its investment spending will likely remain elevated in the coming years.\" | N.A. |\n| Lachlan Shaw | Analyst at UBS | \"This is not unusual seasonally, but we will need to monitor for disruptions over coming months.\" | N.A. |",
+            "timestamp": "2025-03-10T18:58:54.661456"
+        }
+    ]
+}

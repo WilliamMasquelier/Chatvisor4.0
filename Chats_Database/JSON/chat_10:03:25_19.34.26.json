@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_19.34.26",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-10T19:34:26.378565"
+        },
+        {
+            "role": "user",
+            "content": "\nYou are tasked with analyzing the following list of stakeholders and returning only the lines that represent real people. Disregard any lines that mention entities or organizations. Remove all rows which are table dividers using \"-\".\n\nInput:\n| Bartlomiej Kolodziejczyk | Ex-chief scientist | \"Fortescue says its ex-chief scientist Bartlomiej Kolodziejczyk and technology development lead Bjorn Winther-Jensen applied green-iron technology they helped develop while working for the miner to form rival startup Element Zero.\" | N.A. |\n| Bjorn Winther-Jensen | Technology development lead | \"Fortescue says its ex-chief scientist Bartlomiej Kolodziejczyk and technology development lead Bjorn Winther-Jensen applied green-iron technology they helped develop while working for the miner to form rival startup Element Zero.\" | N.A. |\n| Michael Masterman | Chief executive of Element Zero | \"Fortescue is suing the men as well as Element Zero and its chief executive, Michael Masterman.\" | N.A. |\n| Justice Brigitte Markovic | Federal Court Justice | \"Justice Brigitte Markovic also ordered the former employees pay Fortescue's legal costs for contesting the application.\" | N.A. |\n| Justice Melissa Perry | Federal Court Justice | \"In granting the search order, Justice Perry said there was a strong prima facie case from Fortescue and if the searches had been flagged in advance there was a real risk information might be destroyed or 'squirrelled away'.\" | N.A. |\n| Lawyers for Fortescue | Legal representatives | \"Lawyers for Fortescue labelled the bid to retroactively overturn the search order a 'monumental waste of time' and an attempt to avoid properly facing the allegations being levelled at the ex-employees.\" | N.A. |\n\nGuidelines:\n1. Only include lines that represent real people or individuals. Only return lines that mention a specific person's name in the first column.\n2. Exclude any lines that mention companies, organizations or entities.\n3. If a line is ambiguous, err on the side of exclusion.\n4. Exclude mentions of John Doe or Jane Smith. Exclude the author of the article or other people which are not directly related to Fortescue.\n5. Maintain the original format of each line (markdown table row). Keep the whole line, including the stakeholder description. Each line must be a valid markdown table row with 4 columns, strictly.\n6. If no lines represent real people, return \"None\".\n7. Filter out too general or irrelevant stakeholders. Only include stakeholders that express direct opinions on Fortescue or are directly involved with the company.\n8. Remove all rows which are only containing the \"-\" symbol as your output should only be the rows that represent real people.\n9. Maintain the markdown table format, without including any horizontal divider lines\n\nPlease provide the filtered list of stakeholders below:\n        ",
+            "timestamp": "2025-03-10T19:34:26.378587"
+        },
+        {
+            "role": "assistant",
+            "content": "| Bartlomiej Kolodziejczyk | Ex-chief scientist | \"Fortescue says its ex-chief scientist Bartlomiej Kolodziejczyk and technology development lead Bjorn Winther-Jensen applied green-iron technology they helped develop while working for the miner to form rival startup Element Zero.\" | N.A. |\n| Bjorn Winther-Jensen | Technology development lead | \"Fortescue says its ex-chief scientist Bartlomiej Kolodziejczyk and technology development lead Bjorn Winther-Jensen applied green-iron technology they helped develop while working for the miner to form rival startup Element Zero.\" | N.A. |\n| Michael Masterman | Chief executive of Element Zero | \"Fortescue is suing the men as well as Element Zero and its chief executive, Michael Masterman.\" | N.A. |\n| Justice Brigitte Markovic | Federal Court Justice | \"Justice Brigitte Markovic also ordered the former employees pay Fortescue's legal costs for contesting the application.\" | N.A. |\n| Justice Melissa Perry | Federal Court Justice | \"In granting the search order, Justice Perry said there was a strong prima facie case from Fortescue and if the searches had been flagged in advance there was a real risk information might be destroyed or 'squirrelled away'.\" | N.A. |",
+            "timestamp": "2025-03-10T19:34:30.018575"
+        }
+    ]
+}

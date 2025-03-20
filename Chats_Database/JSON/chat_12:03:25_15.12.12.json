@@ -1,0 +1,24 @@
+{
+    "id": "12:03:25_15.12.12",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 1500,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant!",
+            "timestamp": "2025-03-12T15:12:12.212652"
+        },
+        {
+            "role": "user",
+            "content": "\nExtract a list of all organizations, companies, institutions, and other entities mentioned in this article. You must exclude all real people from your output, it should only list organizations, companies, institutions, excluding people.\n\nRequirements:\n1. Include all types of organizations (companies, government agencies, NGOs, etc.)\n2. Only include entities that are actually discussed, not just mentioned in passing\n3. Remove any duplicates\n4. Include full official names where possible.\n5. Do not include broad terms like \"government\" or \"companies\" without specific identifiers or a specific organisation.\n6. DO NOT include people.\n7. Limit the Organisation name (**ENTITY**) to a maximum of 3 to 4 words.\n8. The entity name MUST NOT be empty - if you can't identify the name, skip that entity entirely.\n\nArticle:\nTitle: Arrow to expand Qld gas project\nContent: Page 1 of 1\nArrow to expand Qld gas project\nArrow to expand Qld gas project\nThe Daily Telegraph (Australia)\nAugust 13, 2024 Tuesday\nTelegraph Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: BUSINESS; Pg. 40\nLength: 222 words\nByline: Colin Packham\nBody\nShell and PetroChina's joint venture Arrow Energy will -expand its Surat Gas Project as it moves to capitalise on -\ngrowing demand.\nThe expansion will be welcomed by Australia's energy industry, which is struggling to lock-in supplies along the \ncountry's east coast.\nArrow said it would expand the project in Queensland's Western Downs to produce 4000PJ of gas for the domestic \nmarket. The joint venture said 450 new gas -production wells, a new field compression station, 27km pipeline and \nroad and infrastructure upgrades over two phases would be developed.\nArrow chief executive Zhengxin Peng said first gas from the expansion has been targeted for 2026.\n\"At a time when more gas is needed for homes, businesses and industries, the SGP North development will solidify \nArrow's position as a major producer of natural gas on the east coast,\" he said.\nThe gas from the project would flow to the Shell-operated QCLNG liquefied natural gas facility on Curtis Island, \nnear Gladstone, to meet long-term contracts and supply domestic customers, the joint venture partners said.\nShell integrated gas and upstream director Zoe Yujnovich said the expansion underscored its commitment to the \ndomestic market. \"QCLNG marked its 1000th cargo at the end of last year, reflecting its significance as a gas \nsupplier for Australia and the region,' she said.\nLoad-Date: August 12, 2024\nEnd of Document\n\nOutput Format:\n**ENTITY**: [Organization Name]\n**TYPE**: [Type of organization - e.g., Company, Government Agency, NGO, etc.]\n**DESCRIPTION**: [Brief description of how the entity is discussed in the article]\n\nExample Output:\n**ENTITY**: Tesla, Inc.\n**TYPE**: Company\n**DESCRIPTION**: Main subject of article, discussing Q4 earnings report\n\nOnly include entities that are meaningful to the article's content. Return \"None\" in case there are no relevant organisations to be mentioned.\nYou must exclude Shell from your output.\n",
+            "timestamp": "2025-03-12T15:12:12.212680"
+        },
+        {
+            "role": "assistant",
+            "content": "**ENTITY**: Arrow Energy  \n**TYPE**: Company  \n**DESCRIPTION**: Discussed as expanding its Surat Gas Project to meet growing gas demand in Queensland.  \n\n**ENTITY**: PetroChina  \n**TYPE**: Company  \n**DESCRIPTION**: Mentioned as a joint venture partner in Arrow Energy's Surat Gas Project expansion.  \n\n**ENTITY**: QCLNG  \n**TYPE**: Facility  \n**DESCRIPTION**: Shell-operated liquefied natural gas facility receiving gas from the Surat Gas Project.  \n\nNone",
+            "timestamp": "2025-03-12T15:12:14.590615"
+        }
+    ]
+}

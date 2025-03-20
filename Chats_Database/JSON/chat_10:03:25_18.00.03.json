@@ -1,0 +1,24 @@
+{
+    "id": "10:03:25_18.00.03",
+    "docs_paths": null,
+    "model_name": "gpt-4o-mini",
+    "max_tokens": 50,
+    "temperature": 0,
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful assistant. Your role is to decide whether or not a given article is relevant to a given company. If the given company is not a specific entity but a topic or industry, make sure that the article's content is directly and closely related to that topic or industry. The company or topic to be considered is the following: Fortescue.",
+            "timestamp": "2025-03-10T18:00:03.470639"
+        },
+        {
+            "role": "user",
+            "content": "\nYou will be provided with a news media article and a company, topic or industry name. Here is the company or industry of interest: Fortescue. It operates in the Mining, with a prefered focus on the Australia market. You should only respond to the following question: Is the article relevant? Your output should only be: \"Yes\" or \"No\". Nothing else. Your task is to determine if the article is sufficiently relevant to Fortescue based on the following criterion:\n\nCentrality: The article is considered relevant if Fortescue is central to the article's content, meaning the focus of the conversation revolves around Fortescue.\n\nIf Fortescue is only mentioned a few times without being a primary focus, the article should be considered not relevant.\n\nHere is the article you will be evaluating: Page 1 of 2\nTwiggy's Moroccan energiser\nTwiggy's Moroccan energiser\nHerald Sun (Australia)\nMay 30, 2024 Thursday\nHeraldSun Edition\nCopyright 2024 Nationwide News Pty Limited All Rights Reserved\nSection: NEWS; Pg. 21\nLength: 395 words\nByline: Matthew Benns\nBody\nStaff inside billionaire Andrew \"Twiggy\" Forrest's mining empire have confirmed he has been romantically involved \nwith a Moroccan politician.\nMr Forrest, 62, was photographed passionately kissing a woman in the Place de Vosges in Paris at the weekend.\nThe woman who had enjoyed the romantic walk with the Australian green energy champion along the Rue des \nFrancs-Bourgeois on the banks of the River Seine was later identified as Morocco's energy minister Leila Benali.\nConfronted by Moroccan media, Ms Benali at first declined to comment. \"No, no I will not speak,\" she said before \nbeing escorted away.\nA statement later released to Morocco World News claimed she was preparing to start defamation proceedings \nover the \"offensive publication\" of the picture in The Daily Mail and her name in The Australian.\nIt said Ms Benali \"denies any connection to either picture as a minister responsible in the government as well as a \nMoroccan woman and mother\".\nInstead it said the publication was an \"attempt to defame\" her by \"interest groups\" seeking revenge for failing to \nachieve their goals.\nA spokesman for Mr Forrest's Fortescue mining company refused to comment on who his billionaire boss was \npashing in Paris.\nBut a staff insider told The Daily Telegraph the pair have been romantically linked for some months.\nIt is understood Ms Benali was in Paris on ministerial business at the weekend which coincided with the arrival of a \nFortescue delegation. Mr Forrest flew on to the Moroccan capital Rabat on Tuesday night.\nMs Benali was part of the official reception committee who welcomed Mr Forrest to Rabat in February after they had \nboth been in the Swiss town of Davos a month earlier.\nPage 2 of 2\nTwiggy's Moroccan energiser\nMr Forrest split from his wife Nicola after 31 years of marriage last year and announced they had agreed to \"live \napart\" with no mention of a divorce. This is the first time he has been romantically linked publicly with anyone else.\nMs Benali is an energy expert who was appointed Morocco's Minister of Energy Transition and Sustainable \nDevelopment in 2021 and in that role sits on the board of the state-owned OCP group that Fortescue is partnering \nwith. A Fortescue spokesman said yesterday: \"The Fortescue team is working with key stakeholders as we \ncontinue to develop our ambitious strategy with OCP, developed over more than two years, to develop green \nenergy, hydrogen and ammonia in Morocco.\nLoad-Date: May 29, 2024\nEnd of Document\n\nYour response should be based on whether the article meets the relevance criteria for Fortescue.\nYour output should only be \"Yes\" or \"No\", based on your assessment. Nothing else.\n            ",
+            "timestamp": "2025-03-10T18:00:03.470669"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes",
+            "timestamp": "2025-03-10T18:00:04.215193"
+        }
+    ]
+}
