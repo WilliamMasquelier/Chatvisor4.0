@@ -453,3 +453,65 @@ Previous summaries: {' '.join(previous_summaries)}"""
         except Exception as e:
             print(f"Unexpected error: {str(e)}")
             raise
+
+    def compile_articles_for_analysis(self):
+        """
+        Compiles all articles into a single Markdown file for use with BigSummarizerGPT.
+        Returns the path to the compiled file.
+        """
+        logging.info(f"Compiling articles for {self.politician_name} for BigSummarizerGPT analysis")
+        
+        # Create the output folder if it doesn't exist
+        output_dir = os.path.join(self.general_folder, "Outputs", "CompiledOutputs")
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Create the output file path
+        output_path = os.path.join(
+            output_dir, 
+            f"CompiledArticles_{self.politician_name.replace(' ', '_')}.md"
+        )
+        
+        # Check if the file already exists and is recent
+        if os.path.exists(output_path) and not self.force_reprocess:
+            # Check if the file was created after the most recent article
+            file_mtime = os.path.getmtime(output_path)
+            latest_article_time = max(
+                [article.get('timestamp', 0) for article in self.articles]
+            )
+            
+            if file_mtime > latest_article_time:
+                logging.info(f"Using existing compiled articles file at {output_path}")
+                return output_path
+        
+        # Sort articles chronologically for better context
+        sorted_articles = sorted(self.articles, key=lambda x: x.get('timestamp', 0))
+        
+        # Compile articles with metadata
+        compiled_content = f"# Compiled Media Coverage of {self.politician_name}\n\n"
+        compiled_content += f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
+        compiled_content += f"Total Articles: {len(sorted_articles)}\n\n"
+        compiled_content += "---\n\n"
+        
+        for i, article in enumerate(sorted_articles):
+            title = article.get('title', f'Untitled Article {i+1}')
+            media_outlet = article.get('media_outlet', 'Unknown Source')
+            author = article.get('author_name', 'Unknown Author')
+            date = article.get('date', 'Unknown Date')
+            content = article.get('content', '').strip()
+            
+            article_section = f"## Article {i+1}: {title}\n\n"
+            article_section += f"**Source**: {media_outlet}\n\n"
+            article_section += f"**Author**: {author}\n\n"
+            article_section += f"**Date**: {date}\n\n"
+            article_section += f"**Content**:\n\n{content}\n\n"
+            article_section += "---\n\n"
+            
+            compiled_content += article_section
+        
+        # Write to the output file
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(compiled_content)
+        
+        logging.info(f"Compiled {len(sorted_articles)} articles to {output_path}")
+        return output_path
+    
